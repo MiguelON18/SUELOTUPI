@@ -21,7 +21,6 @@
     start: null,
     startCenter: null,
     basemap: !isFileMode,
-    labels: true,
   };
 
   const mapbiomasByCode = Object.fromEntries(data.mapbiomas.map(item => [String(item.code), item]));
@@ -101,14 +100,6 @@
     }
     ctx.fill(); ctx.stroke(); ctx.restore();
     state.hitIndex.push({kind: "point", x, y, r: r + 5, feature, layer});
-    if (state.labels && state.zoom >= 12 && feature.properties.Nombre) {
-      ctx.font = "600 10px system-ui, sans-serif";
-      ctx.lineWidth = 3;
-      ctx.strokeStyle = "rgba(255,255,255,.9)";
-      ctx.strokeText(feature.properties.Nombre, x + r + 4, y + 3);
-      ctx.fillStyle = "#183026";
-      ctx.fillText(feature.properties.Nombre, x + r + 4, y + 3);
-    }
   }
 
   function drawLine(coords, style, feature, layer) {
@@ -423,7 +414,6 @@
     basemapToggle.closest("label").title = isFileMode ? "Disponible mediante servidor local o GitHub Pages" : "Activar o desactivar el mapa base";
     document.getElementById("offlineBasemapNote").hidden = !isFileMode;
     basemapToggle.onchange = event => { state.basemap = event.target.checked; render(); };
-    document.getElementById("labelsToggle").onchange = event => { state.labels = event.target.checked; render(); };
     document.getElementById("essentialBtn").onclick = () => { data.layers.forEach(layer => layer.visible = essential.has(layer.title)); updateLayerToggles(); updateLegend(); render(); };
     document.getElementById("allOffBtn").onclick = () => { data.layers.forEach(layer => layer.visible = false); updateLayerToggles(); updateLegend(); render(); };
     document.getElementById("collapseLeft").onclick = () => { workspace.classList.add("left-collapsed"); workspace.classList.remove("left-mobile-open"); document.getElementById("openLeft").hidden = false; setTimeout(resizeCanvas, 260); };

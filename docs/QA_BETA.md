@@ -20,6 +20,7 @@
 - encendido y apagado de capas: aprobado;
 - búsqueda de capas y entidades: aprobada;
 - selección por clic y ficha de atributos: aprobada;
+- nombres y atributos solo en la ficha derecha, sin etiquetas permanentes sobre la cobertura: aprobado;
 - leyenda dinámica: aprobada;
 - mapa base opcional mediante HTTP: aprobado;
 - apertura directa como archivo: modo vectorial local sin solicitudes bloqueadas al servidor de mapas;

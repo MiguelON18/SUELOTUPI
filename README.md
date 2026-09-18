@@ -6,6 +6,7 @@ Visor territorial académico y ligero de San Andrés de Tupicocha para apoyar la
 
 - 15 capas y 750 entidades procedentes del KMZ validado.
 - Navegación, búsqueda, leyenda dinámica, control de visibilidad e identificación por clic.
+- El mapa se mantiene libre de etiquetas permanentes: el nombre y los atributos aparecen únicamente al seleccionar una entidad, dentro de la ficha derecha.
 - Mapa base OpenStreetMap opcional al ejecutar mediante HTTP o GitHub Pages.
 - Al abrir `index.html` directamente como archivo, el visor desactiva el mapa base para evitar el bloqueo 403 del proveedor y conserva todas las capas vectoriales.
 - Descarga del KMZ para Google Earth Pro.
