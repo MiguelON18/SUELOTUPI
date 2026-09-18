@@ -10,7 +10,7 @@ Visor territorial académico y ligero de San Andrés de Tupicocha para apoyar la
 - Mapa base OpenStreetMap opcional al ejecutar mediante HTTP o GitHub Pages.
 - Al abrir `index.html` directamente como archivo, el visor desactiva el mapa base para evitar el bloqueo 403 del proveedor y conserva todas las capas vectoriales.
 - Descarga del KMZ para Google Earth Pro.
-- Sin dashboard temporal todavía.
+- Dashboard MapBiomas–INEI con serie anual 1985–2025 para la microcuenca, composición por clase, balance respecto de 1985 y contexto censal distrital 2017.
 - AID y AII deliberadamente pendientes de delimitación participativa.
 - Planet reservado para análisis privado; no hay imágenes ni derivados restringidos en este repositorio.
 
@@ -44,8 +44,16 @@ python3 scripts/build_layers.py
 
 El proceso usa únicamente la biblioteca estándar de Python y conserva la trazabilidad con el entregable cartográfico.
 
+El snapshot agregado del dashboard se reconstruye desde los CSV locales de MapBiomas:
+
+```bash
+python3 scripts/build_dashboard_data.py
+```
+
+El script valida claves duplicadas, valores negativos, estabilidad del área, conciliación entre clases y totales, y coincidencia con el corte 2025 antes de generar `data/dashboard.js`.
+
 ## Fuentes y límites
 
-Las fuentes detalladas aparecen en los atributos de cada capa. La simbología de cobertura sigue la leyenda de MapBiomas Perú Colección 4. El mapa base corresponde a OpenStreetMap y requiere conexión a Internet.
+Las fuentes detalladas aparecen en los atributos de cada capa y en el bloque de trazabilidad del dashboard. La simbología de cobertura sigue la leyenda de MapBiomas Perú Colección 4. La serie MapBiomas representa la microcuenca de trabajo; el contexto social corresponde al distrito completo según publicaciones oficiales del INEI para 2017. El mapa base corresponde a OpenStreetMap y requiere conexión a Internet.
 
 Este visor es una herramienta de exploración para el curso de Planificación Ambiental. No reemplaza trabajo de campo, análisis de laboratorio ni una delimitación ambiental sustentada del AID/AII.

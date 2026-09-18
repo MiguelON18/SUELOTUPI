@@ -27,12 +27,16 @@
 - vista de escritorio: aprobada;
 - vista móvil 390 × 844: aprobada después de corregir el ancho del mapa;
 - consola del navegador: sin errores ni advertencias durante las pruebas finales.
+- enlace entre el visor y `dashboard.html`: aprobado.
+- control temporal del dashboard: aprobado para 1985 y retorno a 2025.
+- dashboard en escritorio 1440 × 900 y móvil 390 × 844: aprobado.
+- conciliación de la serie MapBiomas: 41 años, 10 clases activas, sin duplicados, negativos ni diferencias en el corte 2025.
 
 ## Límites declarados
 
 - El mapa base requiere Internet; las capas temáticas son locales.
 - AID y AII no se han automatizado.
-- Los CSV temporales no forman todavía un dashboard.
+- El dashboard es descriptivo y usa un corte INEI 2017; no atribuye causalidad entre población y cambio de cobertura.
 - No existe un índice de calidad del suelo sin datos de campo/laboratorio.
 - No hay imágenes, bandas, píxeles, API keys ni productos Planet restringidos.
 

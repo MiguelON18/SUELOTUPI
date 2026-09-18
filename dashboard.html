@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Dashboard de cobertura del suelo y contexto poblacional de San Andrés de Tupicocha con datos MapBiomas e INEI.">
+  <title>SueloTUPI · Dashboard territorial</title>
+  <link rel="stylesheet" href="dashboard.css?v=beta5">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Volver al visor SueloTUPI">
+      <span class="brand-mark" aria-hidden="true">ST</span>
+      <span><small>Planificación ambiental · Beta 2</small><strong>Suelo<span>TUPI</span></strong></span>
+    </a>
+    <div class="header-context"><strong>San Andrés de Tupicocha</strong><span>MapBiomas: microcuenca · INEI: distrito</span></div>
+    <nav class="header-actions" aria-label="Navegación principal">
+      <a class="btn btn-ghost" href="index.html">Abrir visor</a>
+      <a class="btn btn-primary" href="downloads/SanAndres_Tupicocha_Capas_Interactivo.kmz" download>Descargar KMZ</a>
+    </nav>
+  </header>
+
+  <main class="dashboard-shell">
+    <section class="intro-row" aria-labelledby="dashboardTitle">
+      <div>
+        <p class="kicker">Lectura indispensable</p>
+        <h1 id="dashboardTitle">Cambio de cobertura y contexto poblacional</h1>
+        <p>Explora cómo se distribuyó la cobertura de la microcuenca de trabajo y qué cambió respecto de 1985. Los datos INEI aportan contexto distrital, pero no explican por sí solos los cambios observados.</p>
+      </div>
+      <div class="year-control">
+        <div><label for="yearSlider">Año de análisis</label><output id="yearOutput" for="yearSlider">2025</output></div>
+        <input id="yearSlider" type="range" min="0" max="40" value="40" step="1">
+        <div class="year-scale"><span>1985</span><span>2005</span><span>2025</span></div>
+        <button id="latestYearBtn" type="button">Volver a 2025</button>
+      </div>
+    </section>
+
+    <div class="scope-note"><strong>Ámbitos diferentes:</strong> MapBiomas analiza la microcuenca; INEI describe el distrito completo. No se calculan relaciones per cápita ni causalidad entre ambas fuentes.</div>
+
+    <section class="kpi-grid" aria-label="Indicadores principales">
+      <article class="kpi-card neutral"><span>Área clasificada</span><strong id="totalAreaKpi">—</strong><small id="totalAreaNote">Microcuenca de trabajo</small></article>
+      <article class="kpi-card natural"><span>Cobertura natural</span><strong id="naturalKpi">—</strong><small id="naturalShare">—</small></article>
+      <article class="kpi-card anthropic"><span>Cobertura antrópica</span><strong id="anthropicKpi">—</strong><small id="anthropicDelta">—</small></article>
+      <article class="kpi-card population"><span>Población censada</span><strong>1 320</strong><small>INEI, Censo 2017 · ubigeo 150715</small></article>
+    </section>
+
+    <section class="chart-grid">
+      <article class="panel trend-panel">
+        <div class="panel-head">
+          <div><p class="kicker">Trayectoria</p><h2>Superficie antrópica</h2></div>
+          <div class="selected-value"><strong id="trendValue">—</strong><span id="trendShare">—</span></div>
+        </div>
+        <div id="trendChart" class="svg-chart" role="img" aria-label="Serie anual de superficie antrópica en hectáreas"></div>
+        <p class="panel-note">Incluye mosaico agropecuario, plantación forestal e infraestructura urbana. El eje inicia en cero.</p>
+      </article>
+
+      <article class="panel composition-panel">
+        <div class="panel-head">
+          <div><p class="kicker">Composición</p><h2 id="compositionTitle">Cobertura en 2025</h2></div>
+          <span class="unit-pill">ha y %</span>
+        </div>
+        <div id="compositionChart" class="bar-list"></div>
+      </article>
+
+      <article class="panel change-panel">
+        <div class="panel-head">
+          <div><p class="kicker">Balance</p><h2 id="changeTitle">Cambio desde 1985</h2></div>
+          <span class="unit-pill">ha</span>
+        </div>
+        <div class="change-legend"><span><i class="loss"></i>Pérdida</span><span><i class="gain"></i>Ganancia</span></div>
+        <div id="changeChart" class="change-list"></div>
+      </article>
+
+      <article class="panel reading-panel">
+        <div class="panel-head">
+          <div><p class="kicker">Interpretación</p><h2>Lectura territorial</h2></div>
+          <span class="status-badge">Descriptiva</span>
+        </div>
+        <div id="insightList" class="insight-list"></div>
+        <div class="caution-box"><strong>No es un índice de calidad del suelo</strong><p>La cobertura indica condición superficial y presión territorial. La calidad edáfica requiere muestreo y laboratorio.</p></div>
+      </article>
+    </section>
+
+    <section class="panel inei-panel" aria-labelledby="ineiTitle">
+      <div class="panel-head">
+        <div><p class="kicker">Contexto social oficial</p><h2 id="ineiTitle">INEI · Censos Nacionales 2017</h2></div>
+        <span class="unit-pill">Corte censal</span>
+      </div>
+      <div class="inei-grid">
+        <div class="inei-metrics">
+          <div><strong>1 303</strong><span>personas en viviendas particulares</span></div>
+          <div><strong>442</strong><span>viviendas particulares ocupadas</span></div>
+          <div><strong>87,3 %</strong><span>con alumbrado eléctrico</span></div>
+          <div><strong>724</strong><span>habitantes en el centro poblado capital</span></div>
+        </div>
+        <div class="age-card">
+          <h3>Distribución por edad</h3>
+          <div id="ageStack" class="age-stack" role="img" aria-label="Distribución de población por grupos de edad"></div>
+          <div id="ageLegend" class="age-legend"></div>
+        </div>
+        <div class="electric-card">
+          <h3>Alumbrado eléctrico</h3>
+          <div class="electric-value"><strong>386</strong><span>de 442 viviendas</span></div>
+          <div class="progress-track"><span style="width:87.3%"></span></div>
+          <p>56 viviendas particulares ocupadas fueron registradas sin alumbrado eléctrico por red pública.</p>
+        </div>
+      </div>
+      <p class="context-warning">Los ámbitos espaciales son diferentes: MapBiomas representa la microcuenca y el INEI representa el distrito. Además, MapBiomas ofrece una serie anual e INEI aporta un corte censal de 2017. Se muestran juntos para contextualizar decisiones, no para atribuir causalidad.</p>
+    </section>
+
+    <section class="evidence-grid">
+      <article class="panel">
+        <div class="panel-head"><div><p class="kicker">Trazabilidad</p><h2>Fuentes utilizadas</h2></div></div>
+        <div id="sourceList" class="source-list"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-head"><div><p class="kicker">Control mínimo</p><h2>Calidad y límites</h2></div><span class="status-badge ok">Revisado</span></div>
+        <div id="qualitySummary" class="quality-summary"></div>
+        <ul id="limitationList" class="limitation-list"></ul>
+      </article>
+    </section>
+  </main>
+
+  <footer>SueloTUPI Beta 2 · Producto académico para Planificación Ambiental · Sin datos Planet publicados</footer>
+  <script src="data/dashboard.js?v=beta5"></script>
+  <script src="dashboard.js?v=beta5"></script>
+</body>
+</html>
