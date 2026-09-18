@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Visor territorial académico de San Andrés de Tupicocha para apoyar la delimitación del área de influencia y el estudio del suelo.">
+  <title>SueloTUPI · Visor territorial</title>
+  <link rel="stylesheet" href="styles.css?v=beta3">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">ST</div>
+        <div>
+          <div class="eyebrow">Planificación ambiental · Beta académica</div>
+          <h1>Suelo<span>TUPI</span></h1>
+        </div>
+      </div>
+      <div class="header-context">
+        <strong>San Andrés de Tupicocha</strong>
+        <span>Huarochirí · Lima · Perú</span>
+      </div>
+      <div class="header-actions">
+        <button id="presentationBtn" class="btn btn-ghost" type="button" title="Ocultar paneles para presentar">Presentar</button>
+        <a class="btn btn-primary" href="downloads/SanAndres_Tupicocha_Capas_Interactivo.kmz" download>Descargar KMZ</a>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <aside class="sidebar" aria-label="Panel de capas">
+        <div class="sidebar-head">
+          <div>
+            <div class="section-kicker">Exploración</div>
+            <h2>Capas del territorio</h2>
+          </div>
+          <button id="collapseLeft" class="icon-btn" type="button" aria-label="Ocultar panel de capas">‹</button>
+        </div>
+
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="Buscar capa o elemento…" autocomplete="off">
+        </label>
+        <div id="searchResults" class="search-results" hidden></div>
+
+        <div class="layer-tools">
+          <button id="essentialBtn" type="button">Vista esencial</button>
+          <button id="allOffBtn" type="button">Apagar todo</button>
+        </div>
+        <div id="layerList" class="layer-list"></div>
+
+        <div class="source-note">
+          <span class="source-dot"></span>
+          <div><strong>Base verificada</strong><br><span id="datasetSummary">Cargando inventario…</span></div>
+        </div>
+      </aside>
+
+      <section id="map" class="map" aria-label="Mapa interactivo">
+        <div id="tilePane" class="tile-pane" aria-hidden="true"></div>
+        <canvas id="mapCanvas"></canvas>
+        <div class="map-shade" aria-hidden="true"></div>
+
+        <div class="map-title-card">
+          <div class="section-kicker">Zona de estudio</div>
+          <strong>Lectura territorial para el estudio del suelo</strong>
+          <span>Haz clic en una entidad para revisar sus atributos.</span>
+        </div>
+
+        <div class="map-controls" aria-label="Controles del mapa">
+          <button id="zoomInBtn" type="button" aria-label="Acercar">+</button>
+          <button id="zoomOutBtn" type="button" aria-label="Alejar">−</button>
+          <button id="homeBtn" type="button" aria-label="Volver a la zona de estudio">⌂</button>
+        </div>
+
+        <div class="map-options">
+          <label><input id="basemapToggle" type="checkbox" checked> Mapa base</label>
+          <label><input id="labelsToggle" type="checkbox" checked> Etiquetas</label>
+        </div>
+
+        <div id="scaleBar" class="scale-bar"></div>
+        <div class="north-arrow" aria-label="Norte"><span>▲</span>N</div>
+        <div id="offlineBasemapNote" class="offline-basemap-note" hidden>
+          Vista vectorial local · el mapa base se activa al usar un servidor local o GitHub Pages
+        </div>
+        <div class="map-attribution">© OpenStreetMap contributors · Datos temáticos: fuentes indicadas en cada entidad</div>
+        <div id="coordinateReadout" class="coordinate-readout">—</div>
+
+        <button id="openLeft" class="panel-tab left" type="button" hidden>Capas</button>
+        <button id="openRight" class="panel-tab right" type="button" hidden>Ficha</button>
+      </section>
+
+      <aside class="inspector" aria-label="Ficha de información">
+        <div class="sidebar-head">
+          <div>
+            <div class="section-kicker">Interpretación</div>
+            <h2>Ficha territorial</h2>
+          </div>
+          <button id="collapseRight" class="icon-btn" type="button" aria-label="Ocultar ficha">›</button>
+        </div>
+
+        <div id="welcomePanel" class="welcome-panel">
+          <div class="pulse-icon" aria-hidden="true">◎</div>
+          <h3>Una lectura, no solo un mapa</h3>
+          <p>Activa capas y selecciona elementos para relacionar cobertura, agua, población, accesibilidad, catastro y peligros.</p>
+
+          <div class="metric-grid">
+            <div><strong id="layerMetric">15</strong><span>capas</span></div>
+            <div><strong id="featureMetric">750</strong><span>entidades</span></div>
+            <div><strong>2025</strong><span>cobertura</span></div>
+          </div>
+
+          <div class="notice-card warning">
+            <strong>AID y AII pendientes</strong>
+            <p>El visor organiza la evidencia para delimitarlas con la profesora. No dibuja límites automáticos ni arbitrarios.</p>
+          </div>
+
+          <div class="planet-card">
+            <div class="planet-head"><span class="planet-orbit">◌</span><strong>Módulo Planet privado</strong></div>
+            <p>Previsto para detalle reciente, estratificación y verificación local. Las imágenes y valores por píxel no se publican en este visor.</p>
+            <span class="status-pill">Próxima etapa</span>
+          </div>
+        </div>
+
+        <div id="featurePanel" class="feature-panel" hidden>
+          <div id="featureSwatch" class="feature-swatch"></div>
+          <div class="feature-layer" id="featureLayer"></div>
+          <h3 id="featureTitle"></h3>
+          <div id="featureTable" class="feature-table"></div>
+          <button id="zoomFeatureBtn" class="btn btn-secondary" type="button">Acercar a la entidad</button>
+        </div>
+
+        <div id="legendPanel" class="legend-panel">
+          <div class="legend-title">Leyenda activa</div>
+          <div id="legendList"></div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <noscript>SueloTUPI necesita JavaScript para representar las capas interactivas.</noscript>
+  <script src="data/layers.js?v=beta3"></script>
+  <script src="app.js?v=beta3"></script>
+</body>
+</html>
