@@ -1,0 +1,39 @@
+{
+  "fecha": "2026-10-31",
+  "modelo": "DSM Copernicus GLO30, no MDT de terreno desnudo",
+  "resolucion_m": 30,
+  "AII_ha": 2636.801906221602,
+  "validos_pendiente": 29299,
+  "validos_fuera_AII": 0,
+  "clases": 7,
+  "intervalos": [
+    "0–4 %",
+    ">4–8 %",
+    ">8–15 %",
+    ">15–25 %",
+    ">25–50 %",
+    ">50–75 %",
+    ">75 %"
+  ],
+  "colores": [
+    "#006100",
+    "#559100",
+    "#a4c400",
+    "#ffff00",
+    "#ffbb00",
+    "#ff7700",
+    "#ff2600"
+  ],
+  "referencia_simbolizacion": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ZEE_VISOR/14_CARACTERIZACI%C3%93N_TERRITORIAL_PUNO/MapServer/25",
+  "alcance_referencia": "Intervalos/colores de leyenda MINAM ZEE Puno como referencia; datos calculados localmente para Tupicocha, no capa institucional del lugar ni norma universal",
+  "limite_clases": "0≤p≤4; 4<p≤8; 8<p≤15; 15<p≤25; 25<p≤50; 50<p≤75; p>75",
+  "curvas_entidades": 51,
+  "curvas_equidistancia_m": 50,
+  "curvas_principales_m": 250,
+  "detalle_visible_zoom_minimo": 14,
+  "fuentes_sha256": {
+    "/Users/administrador/Documents/PLANI/TRABAJO_NOVIEMBRE/RETORNO_WINDOWS_v07_20261030/02_RESULTADOS/12_relieve_documentado_v01/raster/DSM_COP_GLO30_AII_30m.tif": "c35bff9b275db7ef77043ab6927cf30f9102202601889767e2bcff1f5a44239f",
+    "/Users/administrador/Documents/PLANI/TRABAJO_NOVIEMBRE/AJUSTE_AMBITOS_20261030/03_diagnostico/raster/PENDIENTE_PORCENTAJE_AII_30m_AII_nuevo.tif": "4bb18a302175d9ebd73f0b6b824478f65a63995ba1741e7950333cc05921e296",
+    "/Users/administrador/Documents/PLANI/TRABAJO_NOVIEMBRE/AJUSTE_AMBITOS_20261030/03_diagnostico/raster/DSM_COP_GLO30_AII_30m_AII_nuevo.tif": "c07f8ec78b2c4142b63f559cc85ec576f8ddd27f2b4efe377e966b64d9bb0374"
+  }
+}

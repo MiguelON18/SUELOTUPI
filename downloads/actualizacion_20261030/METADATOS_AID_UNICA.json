@@ -1,0 +1,13 @@
+{
+  "fecha": "2026-10-31",
+  "version": "AID_casco_unico_v02",
+  "area_ha": 17.683203580504735,
+  "area_previa_ha": 13.803216461390955,
+  "ratio": 0.1496877670288086,
+  "partes": 1,
+  "huecos": 0,
+  "perdida_huella_m2": 0.0,
+  "metodo": "Menor ratio por búsqueda de22 pasos que contiene la huella en UTM18S; no buffer ni registro de imagen",
+  "limitacion": "Perímetro cartográfico referencial; no límite urbano oficial ni comprobación de uso de cada espacio incorporado",
+  "AII_sin_cambios": true
+}

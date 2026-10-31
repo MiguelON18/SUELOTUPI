@@ -1,0 +1,616 @@
+﻿zona_id,anio,clase_codigo,clase_nombre,area_ha,area_clasificada_ha,limite_version,origen
+AII,1985,3,Bosque,82.33147902545929,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1985,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1985,12,Formación herbácea,1357.5823966247178,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1985,21,Mosaico agropecuario,5.07465041295439,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1985,24,Infraestructura urbana,10.761820151155442,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1985,33,"Río, lago u océano",2.012348372617364,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1985,66,Matorral y otros arbustales,1070.8694671569028,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1985,68,Otra área natural sin vegetación,9.099282531811298,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1985,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1985,92,Superficie rocosa,96.34393605740294,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1986,3,Bosque,86.53149178649858,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1986,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1986,12,Formación herbácea,1353.4697680469358,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1986,21,Mosaico agropecuario,4.7246761418446885,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1986,24,Infraestructura urbana,10.324348625058677,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1986,33,"Río, lago u océano",2.974767960910499,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1986,66,Matorral y otros arbustales,1071.7444509745553,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1986,68,Otra área natural sin vegetación,7.611916845285149,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1986,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1986,92,Superficie rocosa,96.69395995193273,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1987,3,Bosque,82.6814507367842,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1987,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1987,12,Formación herbácea,1350.9323220240608,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1987,21,Mosaico agropecuario,5.337147204209117,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1987,24,Infraestructura urbana,10.586831523670257,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1987,33,"Río, lago u océano",2.2748276053763923,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1987,66,Matorral y otros arbustales,1078.3069462955805,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1987,68,Otra área natural sin vegetación,7.6119170157924305,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1987,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1987,92,Superficie rocosa,96.34393792754786,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1988,3,Bosque,82.68146343630627,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1988,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1988,12,Formación herbácea,1331.681596530564,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1988,21,Mosaico agropecuario,20.12380877002999,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1988,24,Infraestructura urbana,10.674325624314697,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1988,33,"Río, lago u océano",1.5748803416222334,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1988,66,Matorral y otros arbustales,1082.6834452781009,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1988,68,Otra área natural sin vegetación,7.874397953733803,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1988,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1988,92,Superficie rocosa,96.7814623983495,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1989,3,Bosque,82.94394727049917,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1989,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1989,12,Formación herbácea,1321.0062938625329,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1989,21,Mosaico agropecuario,26.94843187628165,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1989,24,Infraestructura urbana,10.674325027619304,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1989,33,"Río, lago u océano",1.574871898853034,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1989,66,Matorral y otros arbustales,1086.1841447939403,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1989,68,Otra área natural sin vegetación,7.874397953733803,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1989,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1989,92,Superficie rocosa,96.86896764956117,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1990,3,Bosque,70.43221155426502,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1990,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1990,12,Formación herbácea,1313.393601661533,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1990,21,Mosaico agropecuario,32.285580776552855,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1990,24,Infraestructura urbana,10.849313740345835,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1990,33,"Río, lago u océano",0.5249605117626488,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1990,66,Matorral y otros arbustales,1100.0088695354825,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1990,68,Otra área natural sin vegetación,8.8368206918247,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1990,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1990,92,Superficie rocosa,97.74402186125444,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1991,3,Bosque,70.86966935137436,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1991,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1991,12,Formación herbácea,1315.056161094951,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1991,21,Mosaico agropecuario,33.94797183977887,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1991,24,Infraestructura urbana,10.76181938398257,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1991,33,"Río, lago u océano",2.4498159772261974,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1991,66,Matorral y otros arbustales,1095.896463035053,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1991,68,Otra área natural sin vegetación,7.261949989443274,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1991,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1991,92,Superficie rocosa,97.83152966121213,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1992,3,Bosque,74.89451341486648,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1992,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1992,12,Formación herbácea,1314.1811816471354,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1992,21,Mosaico agropecuario,31.235595163297653,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1992,24,Infraestructura urbana,10.849314166514576,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1992,33,"Río, lago u océano",2.3623217060305173,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1992,66,Matorral y otros arbustales,1094.671466409021,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1992,68,Otra área natural sin vegetación,7.611924175504597,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1992,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1992,92,Superficie rocosa,98.26906365065129,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1993,3,Bosque,81.8065457088381,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1993,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1993,12,Formación herbácea,1310.7687571217136,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1993,21,Mosaico agropecuario,41.20988057596534,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1993,24,Infraestructura urbana,10.93680698868483,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1993,33,"Río, lago u océano",2.7997886286459863,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1993,66,Matorral y otros arbustales,1081.6350755626247,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1993,68,Otra área natural sin vegetación,6.911976149114223,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1993,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1993,92,Superficie rocosa,98.00654959743471,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1994,3,Bosque,83.46913261400908,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1994,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1994,12,Formación herbácea,1310.4187413949094,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1994,21,Mosaico agropecuario,43.48458627840057,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1994,24,Infraestructura urbana,10.761818616914749,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1994,33,"Río, lago u océano",2.8872823030494152,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1994,66,Matorral y otros arbustales,1078.0477862558187,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1994,68,Otra área natural sin vegetación,6.999479872118682,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1994,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1994,92,Superficie rocosa,98.00655299780071,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1995,3,Bosque,83.64413623231351,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1995,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1995,12,Formación herbácea,1310.4186282901942,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1995,21,Mosaico agropecuario,42.25969009509906,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1995,24,Infraestructura urbana,10.67432460148111,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1995,33,"Río, lago u océano",2.4498146131545306,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1995,66,Matorral y otros arbustales,1079.7977279549123,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1995,68,Otra área natural sin vegetación,6.649496660476179,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1995,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1995,92,Superficie rocosa,98.18156188539044,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1996,3,Bosque,84.86902680198327,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1996,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1996,12,Formación herbácea,1310.0686575861685,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1996,21,Mosaico agropecuario,40.94726094739884,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1996,24,Infraestructura urbana,10.849313228968532,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1996,33,"Río, lago u océano",1.7498676051743332,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1996,66,Matorral y otros arbustales,1080.8477189076596,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1996,68,Otra área natural sin vegetación,6.736989993841946,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1996,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1996,92,Superficie rocosa,98.00654526182637,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1997,3,Bosque,83.73152472843454,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1997,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1997,12,Formación herbácea,1298.4311732374722,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1997,21,Mosaico agropecuario,37.79743923972323,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1997,24,Infraestructura urbana,10.849313228968532,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1997,33,"Río, lago u océano",1.4873868377350272,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1997,66,Matorral y otros arbustales,1096.5100676112838,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1997,68,Otra área natural sin vegetación,7.174456148528309,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1997,82,Herbazal inundable altoandino,0.34999599613696336,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1997,92,Superficie rocosa,97.74402330473886,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1998,3,Bosque,87.75617219357045,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1998,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1998,12,Formación herbácea,1291.344065842254,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1998,21,Mosaico agropecuario,49.60910617764741,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1998,24,Infraestructura urbana,10.936807414853572,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1998,33,"Río, lago u océano",0.7874394034579396,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1998,66,Matorral y otros arbustales,1088.285866985519,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1998,68,Otra área natural sin vegetación,7.611932608281822,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1998,82,Herbazal inundable altoandino,0.4374948674671352,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1998,92,Superficie rocosa,97.30649483997003,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1999,3,Bosque,88.80609381093606,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1999,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,1999,12,Formación herbácea,1269.9942802291914,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1999,21,Mosaico agropecuario,55.99614341480509,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1999,24,Infraestructura urbana,10.936807414853572,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1999,33,"Río, lago u océano",0.43746572894901037,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1999,66,Matorral y otros arbustales,1103.161200347498,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1999,68,Otra área natural sin vegetación,7.524434670437872,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1999,82,Herbazal inundable altoandino,0.4374948674671352,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,1999,92,Superficie rocosa,96.781459848883,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2000,3,Bosque,89.59356006868632,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2000,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,2000,12,Formación herbácea,1259.844291691053,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2000,21,Mosaico agropecuario,53.54627041557505,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2000,24,Infraestructura urbana,11.111796553725746,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2000,33,"Río, lago u océano",0.43746572894901037,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2000,66,Matorral y otros arbustales,1114.4485922634212,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2000,68,Otra área natural sin vegetación,7.261953988263756,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2000,82,Herbazal inundable altoandino,0.9624871588990092,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2000,92,Superficie rocosa,96.86896246444807,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2001,3,Bosque,90.46845963232221,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2001,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,2001,12,Formación herbácea,1247.594019939807,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2001,21,Mosaico agropecuario,50.221496227706226,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2001,24,Infraestructura urbana,10.849312973251193,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2001,33,"Río, lago u océano",0.3499736745096743,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2001,66,Matorral y otros arbustales,1129.5860889536395,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2001,68,Otra área natural sin vegetación,6.299526213546843,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2001,82,Herbazal inundable altoandino,1.1374848164193332,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2001,92,Superficie rocosa,97.56901790181921,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2002,3,Bosque,91.16843543855175,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2002,9,Plantación forestal,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,2002,12,Formación herbácea,1246.0187704464465,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2002,21,Mosaico agropecuario,46.63428186347559,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2002,24,Infraestructura urbana,11.024302026921509,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2002,33,"Río, lago u océano",0.34997341873198745,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2002,66,Matorral y otros arbustales,1132.2986451388188,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2002,68,Otra área natural sin vegetación,7.43693069224134,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2002,82,Herbazal inundable altoandino,0.9624869034864008,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2002,92,Superficie rocosa,98.1815544043474,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2003,3,Bosque,88.6310780737549,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2003,9,Plantación forestal,0.5249926319994032,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2003,12,Formación herbácea,1248.2934129129571,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2003,21,Mosaico agropecuario,17.848913536097854,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2003,24,Infraestructura urbana,11.54926825012788,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2003,33,"Río, lago u océano",1.4873798442803323,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2003,66,Matorral y otros arbustales,1158.6343630900294,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2003,68,Otra área natural sin vegetación,7.699404552277178,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2003,82,Herbazal inundable altoandino,0.7874891608200967,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2003,92,Superficie rocosa,98.6190782806769,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2004,3,Bosque,89.68101928423943,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2004,9,Plantación forestal,0.6999899489551782,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2004,12,Formación herbácea,1245.4061941216605,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2004,21,Mosaico agropecuario,18.811330396845936,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2004,24,Infraestructura urbana,11.54926825012788,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2004,33,"Río, lago u océano",1.6623643789932132,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2004,66,Matorral y otros arbustales,1161.3468337437785,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2004,68,Otra área natural sin vegetación,7.524417970814556,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2004,82,Herbazal inundable altoandino,0.524993738797307,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2004,92,Superficie rocosa,96.8689684988089,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2005,3,Bosque,92.04343089799062,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2005,9,Plantación forestal,0.6124910776250063,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2005,12,Formación herbácea,1231.056088615148,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2005,21,Mosaico agropecuario,18.898816739521177,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2005,24,Infraestructura urbana,11.54926825012788,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2005,33,"Río, lago u océano",1.6623642084829509,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2005,66,Matorral y otros arbustales,1173.422061400824,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2005,68,Otra área natural sin vegetación,7.43692446692735,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2005,82,Herbazal inundable altoandino,0.8749878618471324,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2005,92,Superficie rocosa,96.51894681452737,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2006,3,Bosque,94.05583405340388,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2006,9,Plantación forestal,1.7499396056763825,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2006,12,Formación herbácea,1231.1435432734697,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2006,21,Mosaico agropecuario,18.111360628829893,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2006,24,Infraestructura urbana,11.724256877615304,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2006,33,"Río, lago u océano",1.6623641232289375,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2006,66,Matorral y otros arbustales,1173.1595896359959,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2006,68,Otra área natural sin vegetación,5.774558637170493,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2006,82,Herbazal inundable altoandino,0.34999574072882533,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2006,92,Superficie rocosa,96.34393775690198,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2007,3,Bosque,98.25588284719959,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2007,9,Plantación forestal,2.1874091733954844,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2007,12,Formación herbácea,1230.3561710201302,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2007,21,Mosaico agropecuario,18.286336553439497,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2007,24,Infraestructura urbana,11.461773041465879,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2007,33,"Río, lago u océano",0.787430278068781,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2007,66,Matorral y otros arbustales,1170.5342727669358,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2007,68,Otra área natural sin vegetación,4.89962572978437,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2007,82,Herbazal inundable altoandino,0.3499942933358252,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2007,92,Superficie rocosa,96.95648462926597,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2008,3,Bosque,100.53086367861553,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2008,9,Plantación forestal,2.2748906646311284,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2008,12,Formación herbácea,1230.6189530075924,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2008,21,Mosaico agropecuario,54.071793857847155,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2008,24,Infraestructura urbana,11.374278173710405,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2008,33,"Río, lago u océano",0.6999388208985329,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2008,66,Matorral y otros arbustales,1132.736048573079,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2008,68,Otra área natural sin vegetación,4.637146326538175,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2008,82,Herbazal inundable altoandino,0.3499942933358252,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2008,92,Superficie rocosa,96.7814729367733,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2009,3,Bosque,104.55594283396454,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2009,9,Plantación forestal,1.9248999495059254,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2009,12,Formación herbácea,1232.8064721646579,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2009,21,Mosaico agropecuario,54.15929358492717,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2009,24,Infraestructura urbana,11.549267312605679,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2009,33,"Río, lago u océano",0.2624740302979946,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2009,66,Matorral y otros arbustales,1128.2733710317157,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2009,68,Otra área natural sin vegetación,3.412240000424535,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2009,82,Herbazal inundable altoandino,0.9624861372105776,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2009,92,Superficie rocosa,96.16893328771145,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2010,3,Bosque,103.68102715523318,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2010,9,Plantación forestal,2.0998919013284145,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2010,12,Formación herbácea,1226.0690503253334,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2010,21,Mosaico agropecuario,75.50800067458674,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2010,24,Infraestructura urbana,11.89924380036965,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2010,33,"Río, lago u océano",0.6124477048076689,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2010,66,Matorral y otros arbustales,1115.4994020569416,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2010,68,Otra área natural sin vegetación,1.4873922087855638,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2010,82,Herbazal inundable altoandino,0.9624861372105776,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2010,92,Superficie rocosa,96.25643836842478,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2011,3,Bosque,106.74362382563055,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2011,9,Plantación forestal,2.624876611136645,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2011,12,Formación herbácea,1223.618945613259,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2011,21,Mosaico agropecuario,76.55795272425338,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2011,24,Infraestructura urbana,11.89924380036965,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2011,33,"Río, lago u océano",0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,2011,66,Matorral y otros arbustales,1113.3119016680153,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2011,68,Otra área natural sin vegetación,1.7498725499272347,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2011,82,Herbazal inundable altoandino,0.7874889905273914,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2011,92,Superficie rocosa,96.78147454990224,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2012,3,Bosque,96.76883230805845,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2012,9,Plantación forestal,2.974846695275604,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2012,12,Formación herbácea,1222.656247101056,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2012,21,Mosaico agropecuario,59.933922825589036,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2012,24,Infraestructura urbana,11.986738582901655,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2012,33,"Río, lago u océano",0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,2012,66,Matorral y otros arbustales,1138.8608816573255,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2012,68,Otra área natural sin vegetación,2.187340836596489,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2012,82,Herbazal inundable altoandino,0.4374930795259774,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2012,92,Superficie rocosa,98.26907724669277,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2013,3,Bosque,95.19384350507633,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2013,9,Plantación forestal,1.8373714198216797,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2013,12,Formación herbácea,1228.8681453101785,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2013,21,Mosaico agropecuario,49.9595005538404,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2013,24,Infraestructura urbana,12.51170634049997,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2013,33,"Río, lago u océano",0.34996531685888765,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2013,66,Matorral y otros arbustales,1140.5233292433345,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2013,68,Otra área natural sin vegetación,2.887276417924464,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2013,82,Herbazal inundable altoandino,1.04998483826071,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2013,92,Superficie rocosa,100.89425738722608,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2014,3,Bosque,94.66886817387788,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2014,9,Plantación forestal,0.9624422669067978,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2014,12,Formación herbácea,1232.6304638022118,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2014,21,Mosaico agropecuario,28.69830616970956,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2014,24,Infraestructura urbana,12.774191540378332,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2014,33,"Río, lago u océano",0.34996531685888765,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2014,66,Matorral y otros arbustales,1155.3973619905628,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2014,68,Otra área natural sin vegetación,6.037016121716799,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2014,82,Herbazal inundable altoandino,1.2249836877450346,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2014,92,Superficie rocosa,101.33178126305341,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2015,3,Bosque,98.60640933903233,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2015,9,Plantación forestal,1.574926785866916,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2015,12,Formación herbácea,1243.8303293476015,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2015,21,Mosaico agropecuario,26.860891447398814,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2015,24,Infraestructura urbana,12.686697184015065,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2015,33,"Río, lago u océano",0.34996531685888765,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2015,66,Matorral y otros arbustales,1141.659905981815,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2015,68,Otra área natural sin vegetación,6.3869833997361365,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2015,82,Herbazal inundable altoandino,0.7874902676433324,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2015,92,Superficie rocosa,101.33178126305341,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2016,3,Bosque,96.15654927114025,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2016,9,Plantación forestal,2.624910260507465,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2016,12,Formación herbácea,1247.9429756065183,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2016,21,Mosaico agropecuario,25.111003642946486,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2016,24,Infraestructura urbana,12.949180423577875,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2016,33,"Río, lago u océano",0.4374566887274384,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2016,66,Matorral y otros arbustales,1139.8221585998401,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2016,68,Otra área natural sin vegetación,7.786870337997377,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2016,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,2016,92,Superficie rocosa,101.24427550176605,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2017,3,Bosque,103.5941271881342,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2017,9,Plantación forestal,4.024820561146736,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2017,12,Formación herbácea,1253.3679680136813,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2017,21,Mosaico agropecuario,24.410963938171417,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2017,24,Infraestructura urbana,12.861687004803866,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2017,33,"Río, lago u océano",0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,2017,66,Matorral y otros arbustales,1126.2597513162068,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2017,68,Otra área natural sin vegetación,8.486799521374701,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2017,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,2017,92,Superficie rocosa,101.069262789502,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2018,3,Bosque,106.04402361256032,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2018,9,Plantación forestal,2.187368114181608,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2018,12,Formación herbácea,1249.7804818063335,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2018,21,Mosaico agropecuario,23.18596816421971,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2018,24,Infraestructura urbana,12.686699741072953,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2018,33,"Río, lago u océano",0.3499936973184347,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2018,66,Matorral y otros arbustales,1129.059736452037,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2018,68,Otra área natural sin vegetación,8.836828832405057,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2018,82,Herbazal inundable altoandino,0.5249934833846985,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2018,92,Superficie rocosa,101.41928642950803,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2019,3,Bosque,104.29427845859826,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2019,9,Plantación forestal,1.92489782076478,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2019,12,Formación herbácea,1247.4180150158115,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2019,21,Mosaico agropecuario,23.0984760144867,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2019,24,Infraestructura urbana,12.861688794698566,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2019,33,"Río, lago u océano",0.3499936973184347,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2019,66,Matorral y otros arbustales,1133.2594878799014,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2019,68,Otra área natural sin vegetación,10.411817213987552,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2019,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,2019,92,Superficie rocosa,100.45672543745414,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2020,3,Bosque,94.7570232896246,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2020,9,Plantación forestal,5.162219573239982,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2020,12,Formación herbácea,1242.0807823627695,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2020,21,Mosaico agropecuario,19.248631337335702,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2020,24,Infraestructura urbana,12.774194864504038,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2020,33,"Río, lago u océano",0.3499936973184347,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2020,66,Matorral y otros arbustales,1151.808745784697,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2020,68,Otra área natural sin vegetación,6.299519370789081,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2020,82,Herbazal inundable altoandino,0.349994974476099,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2020,92,Superficie rocosa,101.24427507826687,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2021,3,Bosque,94.93198140878752,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2021,9,Plantación forestal,5.162212077274173,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2021,12,Formación herbácea,1241.6432336633763,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2021,21,Mosaico agropecuario,20.91105587899759,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2021,24,Infraestructura urbana,12.774194864504038,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2021,33,"Río, lago u océano",0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,2021,66,Matorral y otros arbustales,1152.5088660098352,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2021,68,Otra área natural sin vegetación,5.424592261986435,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2021,82,Herbazal inundable altoandino,0,2634.0753803330213,AII_COP_interseccion_v01,Cero observado: ausencia de clase comprobada en ráster nativo
+AII,2021,92,Superficie rocosa,100.71924416825996,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2022,3,Bosque,90.73162611163035,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2022,9,Plantación forestal,5.0747523093692966,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2022,12,Formación herbácea,1241.1182157719143,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2022,21,Mosaico agropecuario,18.898696378342063,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2022,24,Infraestructura urbana,12.774194864504038,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2022,33,"Río, lago u océano",0.6999875649303198,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2022,66,Matorral y otros arbustales,1159.4216188785583,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2022,68,Otra área natural sin vegetación,3.9371613657101987,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2022,82,Herbazal inundable altoandino,0.9623935728400947,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2022,92,Superficie rocosa,100.45673351522237,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2023,3,Bosque,89.41913438330815,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2023,9,Plantación forestal,5.774703152545541,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2023,12,Formación herbácea,1248.8181932004406,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2023,21,Mosaico agropecuario,17.9362749197714,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2023,24,Infraestructura urbana,12.774194864504038,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2023,33,"Río, lago u océano",0.6999875649303198,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2023,66,Matorral y otros arbustales,1153.4715817602703,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2023,68,Otra área natural sin vegetación,4.1121456447720535,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2023,82,Herbazal inundable altoandino,0.6124313272565604,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2023,92,Superficie rocosa,100.45673351522237,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2024,3,Bosque,94.40643801830336,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2024,9,Plantación forestal,6.562175191698969,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2024,12,Formación herbácea,1245.3179041090443,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2024,21,Mosaico agropecuario,17.936335097346454,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2024,24,Infraestructura urbana,13.036679297285527,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2024,33,"Río, lago u océano",0.6999875649303198,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2024,66,Matorral y otros arbustales,1150.0596450701034,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2024,68,Otra área natural sin vegetación,3.849658907789737,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2024,82,Herbazal inundable altoandino,1.6623159308061002,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2024,92,Superficie rocosa,100.54424114571289,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2025,3,Bosque,93.44388711672426,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2025,9,Plantación forestal,7.524593684840203,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2025,12,Formación herbácea,1244.6180321161887,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2025,21,Mosaico agropecuario,17.936367908127604,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2025,24,Infraestructura urbana,13.299162281119823,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2025,33,"Río, lago u océano",0.7874860956937074,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2025,66,Matorral y otros arbustales,1149.6222754690111,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2025,68,Otra área natural sin vegetación,4.287120372574777,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2025,82,Herbazal inundable altoandino,2.36223888604641,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AII,2025,92,Superficie rocosa,100.1942164026946,2634.0753803330213,AII_COP_interseccion_v01,CSV fuente
+AID,1985,12,Formación herbácea,3.849762589006872,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1985,21,Mosaico agropecuario,0.17498990597426892,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1985,24,Infraestructura urbana,10.58682998951748,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1985,66,Matorral y otros arbustales,2.099867705950886,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1985,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1986,12,Formación herbácea,4.374728471466899,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1986,21,Mosaico agropecuario,0.17498990597426892,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1986,24,Infraestructura urbana,10.149358463420716,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1986,66,Matorral y otros arbustales,2.0123733495876195,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1986,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1987,12,Formación herbácea,3.324793723513186,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1987,21,Mosaico agropecuario,0.17498990597426892,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1987,24,Infraestructura urbana,10.411841362032291,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1987,66,Matorral y otros arbustales,2.799825198929757,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1987,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1988,12,Formación herbácea,3.5872782414875926,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1988,21,Mosaico agropecuario,0.43747416831701996,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1988,24,Infraestructura urbana,10.499335462676735,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1988,66,Matorral y otros arbustales,2.18736231796816,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1988,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1989,12,Formación herbácea,3.499784055650979,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1989,21,Mosaico agropecuario,0.7874533834524452,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1989,24,Infraestructura urbana,10.499334865981343,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1989,66,Matorral y otros arbustales,1.924877885364741,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1989,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1990,12,Formación herbácea,3.237300645599514,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1990,21,Mosaico agropecuario,0.9624433746464551,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1990,24,Infraestructura urbana,10.674323578707874,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1990,66,Matorral y otros arbustales,1.837382591495663,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1990,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1991,12,Formación herbácea,2.799825028448552,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1991,21,Mosaico agropecuario,1.3999189917974175,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1991,24,Infraestructura urbana,10.586829222344608,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1991,66,Matorral y otros arbustales,2.099865319621563,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1991,68,Otra área natural sin vegetación,0.3499764878064394,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1992,12,Formación herbácea,2.6248366566784678,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1992,21,Mosaico agropecuario,1.487413774329424,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1992,24,Infraestructura urbana,10.674324004876613,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1992,66,Matorral y otros arbustales,2.099864126327634,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1992,68,Otra área natural sin vegetación,0.3499764878064394,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1993,12,Formación herbácea,2.712330927802622,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1993,21,Mosaico agropecuario,1.5749085568614305,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1993,24,Infraestructura urbana,10.849311950477956,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1993,66,Matorral y otros arbustales,1.749887127070129,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1993,68,Otra área natural sin vegetación,0.3499764878064394,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1994,12,Formación herbácea,2.9748129739843314,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1994,21,Mosaico agropecuario,1.4874147972106935,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1994,24,Infraestructura urbana,10.674323578707874,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1994,66,Matorral y otros arbustales,1.662392941185087,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1994,68,Otra área natural sin vegetación,0.4374707589305938,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1995,12,Formación herbácea,3.2372962135501213,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1995,21,Mosaico agropecuario,1.399920014678687,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1995,24,Infraestructura urbana,10.586829563274236,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1995,66,Matorral y otros arbustales,1.574898499584943,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1995,68,Otra área natural sin vegetación,0.4374707589305938,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1996,12,Formación herbácea,2.8873187880992894,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1996,21,Mosaico agropecuario,1.5749088126420976,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1996,24,Infraestructura urbana,10.761818190761655,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1996,66,Matorral y otros arbustales,1.574898499584943,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1996,68,Otra área natural sin vegetación,0.4374707589305938,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1997,12,Formación herbácea,2.8873187880992894,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1997,21,Mosaico agropecuario,1.5749088126420976,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1997,24,Infraestructura urbana,10.761818190761655,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1997,66,Matorral y otros arbustales,1.487404398946464,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1997,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1998,12,Formación herbácea,2.5373407660968605,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1998,21,Mosaico agropecuario,1.924887346060574,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1998,24,Infraestructura urbana,10.849312376646695,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1998,66,Matorral y otros arbustales,1.3999097016453743,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1998,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1999,12,Formación herbácea,2.624835122460127,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1999,21,Mosaico agropecuario,1.8373929896973074,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1999,24,Infraestructura urbana,10.849312376646695,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1999,66,Matorral y otros arbustales,1.3999097016453743,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,1999,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2000,12,Formación herbácea,2.6248368271194398,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2000,21,Mosaico agropecuario,1.662402146165818,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2000,24,Infraestructura urbana,11.024301515518871,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2000,66,Matorral y otros arbustales,1.3999097016453743,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2000,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2001,12,Formación herbácea,3.149805522093922,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2001,21,Mosaico agropecuario,1.3124210559129716,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2001,24,Infraestructura urbana,10.761817935044316,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2001,66,Matorral y otros arbustales,1.6623941344074904,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2001,68,Otra área natural sin vegetación,0.34997640255987644,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2002,12,Formación herbácea,3.149805522093922,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2002,21,Mosaico agropecuario,1.3124210559129716,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2002,24,Infraestructura urbana,10.936806988714633,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2002,66,Matorral y otros arbustales,1.4874050807371735,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2002,68,Otra área natural sin vegetación,0.34997640255987644,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2003,12,Formación herbácea,3.237302094525099,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2003,21,Mosaico agropecuario,1.1374318318434058,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2003,24,Infraestructura urbana,11.11179484900385,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2003,66,Matorral y otros arbustales,1.3999098720863463,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2003,68,Otra área natural sin vegetación,0.34997640255987644,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2004,12,Formación herbácea,2.887324072482437,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2004,21,Mosaico agropecuario,1.2249252506218853,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2004,24,Infraestructura urbana,11.11179484900385,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2004,66,Matorral y otros arbustales,1.662394475350529,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2004,68,Otra área natural sin vegetación,0.34997640255987644,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2005,12,Formación herbácea,2.5373464765556157,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2005,21,Mosaico agropecuario,1.5749028465487063,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2005,24,Infraestructura urbana,11.11179484900385,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2005,66,Matorral y otros arbustales,1.662394475350529,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2005,68,Otra área natural sin vegetación,0.34997640255987644,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2006,12,Formación herbácea,2.0998738425180314,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2006,21,Mosaico agropecuario,1.5749028465487063,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2006,24,Infraestructura urbana,11.286783476491271,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2006,66,Matorral y otros arbustales,1.83738429601565,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2006,68,Otra área natural sin vegetación,0.43747058844491843,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2007,12,Formación herbácea,1.8373896654307844,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2007,21,Mosaico agropecuario,2.0123757362887265,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2007,24,Infraestructura urbana,11.199289375852796,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2007,66,Matorral y otros arbustales,1.7498896840013562,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2007,68,Otra área natural sin vegetación,0.43747058844491843,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2008,12,Formación herbácea,1.9248848740816118,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2008,21,Mosaico agropecuario,2.099870263125002,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2008,24,Infraestructura urbana,11.199289375852796,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2008,66,Matorral y otros arbustales,1.574899948514253,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2008,68,Otra área natural sin vegetación,0.43747058844491843,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2009,12,Formación herbácea,1.9248848740816118,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2009,21,Mosaico agropecuario,2.0123759067617355,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2009,24,Infraestructura urbana,11.374278514748067,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2009,66,Matorral y otros arbustales,1.4874051659822465,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2009,68,Otra área natural sin vegetación,0.43747058844491843,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2010,12,Formación herbácea,1.7498965875580907,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2010,21,Mosaico agropecuario,2.4498490522421896,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2010,24,Infraestructura urbana,11.549266971726716,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2010,66,Matorral y otros arbustales,1.0499318500466646,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2010,68,Otra área natural sin vegetación,0.43747058844491843,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2011,12,Formación herbácea,1.7498965875580907,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2011,21,Mosaico agropecuario,2.4498490522421896,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2011,24,Infraestructura urbana,11.549266971726716,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2011,66,Matorral y otros arbustales,1.0499318500466646,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2011,68,Otra área natural sin vegetación,0.43747058844491843,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2012,12,Formación herbácea,1.6624018050260843,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2012,21,Mosaico agropecuario,2.4498490522421896,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2012,24,Infraestructura urbana,11.636761754258723,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2012,66,Matorral y otros arbustales,0.9624375789225101,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2012,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2013,12,Formación herbácea,1.9248857264205814,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2013,21,Mosaico agropecuario,1.8373866826206446,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2013,24,Infraestructura urbana,12.161729511857033,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2013,66,Matorral y otros arbustales,0.7874482695512474,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2013,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2014,12,Formación herbácea,2.187368880747259,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2014,21,Mosaico agropecuario,1.3999143894679844,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2014,24,Infraestructura urbana,12.074235240713506,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2014,66,Matorral y otros arbustales,1.049931679520756,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2014,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2015,12,Formación herbácea,2.7123360417023306,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2015,21,Mosaico agropecuario,0.9624415848761797,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2015,24,Infraestructura urbana,11.98674088435024,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2015,66,Matorral y otros arbustales,1.049931679520756,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2015,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2016,12,Formación herbácea,2.5373472437389197,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2016,21,Mosaico agropecuario,0.8749470580428839,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2016,24,Infraestructura urbana,12.24922412391305,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2016,66,Matorral y otros arbustales,1.049931764754653,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2016,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2017,12,Formación herbácea,2.7998310799092057,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2017,21,Mosaico agropecuario,0.6124626252487302,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2017,24,Infraestructura urbana,12.161730705139043,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2017,66,Matorral y otros arbustales,1.1374257801525296,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2017,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2018,12,Formación herbácea,3.412291062943637,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2018,21,Mosaico agropecuario,0.26248485888913275,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2018,24,Infraestructura urbana,11.986742503862082,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2018,66,Matorral y otros arbustales,1.049931764754653,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2018,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2019,12,Formación herbácea,3.2373020093180243,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2019,21,Mosaico agropecuario,0.26248485888913275,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2019,24,Infraestructura urbana,12.161731557487697,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2019,66,Matorral y otros arbustales,1.049931764754653,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2019,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2020,12,Formación herbácea,2.974816809473187,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2020,21,Mosaico agropecuario,0.26248485888913275,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2020,24,Infraestructura urbana,11.986742503862082,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2020,66,Matorral y otros arbustales,1.4874060182251037,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2020,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2021,12,Formación herbácea,2.974816809473187,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2021,21,Mosaico agropecuario,0.26248485888913275,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2021,24,Infraestructura urbana,11.986742503862082,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2021,66,Matorral y otros arbustales,1.4874060182251037,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2021,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2022,12,Formación herbácea,2.974816809473187,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2022,21,Mosaico agropecuario,0.26248485888913275,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2022,24,Infraestructura urbana,11.986742503862082,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2022,66,Matorral y otros arbustales,1.4874060182251037,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2022,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2023,12,Formación herbácea,2.974816809473187,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2023,21,Mosaico agropecuario,0.26248485888913275,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2023,24,Infraestructura urbana,11.986742503862082,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2023,66,Matorral y otros arbustales,1.4874060182251037,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2023,68,Otra área natural sin vegetación,0.5249648595690728,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2024,12,Formación herbácea,2.974818002726138,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2024,21,Mosaico agropecuario,0.26248485888913275,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2024,24,Infraestructura urbana,12.074236860225351,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2024,66,Matorral y otros arbustales,1.4874044840067624,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2024,68,Otra área natural sin vegetación,0.4374708441711963,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2025,12,Formación herbácea,2.974818002726138,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2025,21,Mosaico agropecuario,0.26248485888913275,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2025,24,Infraestructura urbana,12.336719844059647,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2025,66,Matorral y otros arbustales,1.224921500172466,17.236415050018575,AID_casco_unico_v02,CSV fuente
+AID,2025,68,Otra área natural sin vegetación,0.4374708441711963,17.236415050018575,AID_casco_unico_v02,CSV fuente

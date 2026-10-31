@@ -1,0 +1,3 @@
+/* Solo navegación: conservar geometrías, paneles y controles del mapa. */
+@media(max-width:1380px){.topbar{grid-template-columns:1fr auto;gap:14px}.header-context{display:none}}
+@media(max-width:700px){.header-actions{gap:4px}.header-actions .section-link{padding-left:8px;padding-right:8px;font-size:11px}.site-nav{gap:3px;flex-wrap:wrap}.site-nav a{padding-left:8px;padding-right:8px;font-size:12px}}

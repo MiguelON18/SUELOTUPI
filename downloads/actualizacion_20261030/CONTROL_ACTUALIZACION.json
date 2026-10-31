@@ -1,0 +1,12 @@
+{
+  "fecha": "2026-10-31",
+  "AII_incluye_AID": true,
+  "areas_vector_ha": {
+    "AID": 17.683203580504735,
+    "AII": 2636.8019062215176
+  },
+  "nativeRastersChecked": 82,
+  "capas": 17,
+  "entidades": 789,
+  "notas": "Datos adaptados al esquema real. Sin publicación; faltantes y estados conservados."
+}

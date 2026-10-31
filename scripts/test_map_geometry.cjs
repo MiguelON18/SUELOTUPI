@@ -1,0 +1,16 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const path = require('node:path');
+const source = fs.readFileSync(path.join(__dirname, '..', 'app.js'), 'utf8');
+const geometry = {type:'MultiPolygon',coordinates:[[[[1,2],[3,2],[3,4],[1,2]]],[[[5,6],[7,6],[7,8],[5,6]]]]};
+const section = source.slice(source.indexOf('  function geometryCoords('), source.indexOf('  function fitBounds('));
+const context = vm.createContext({geometry});
+const bounds = vm.runInContext(section+'\nboundsOfFeature({geometry});',context);
+assert.deepEqual(Array.from(bounds),[1,2,7,8], 'la ficha debe enfocar todas las partes');
+const calls=[];
+const draw = source.slice(source.indexOf('  function drawGeometry('),source.indexOf('  function drawSelection('));
+const drawContext=vm.createContext({geometry,drawPoint:()=>calls.push('point'),drawLine:()=>calls.push('line'),drawPolygon:()=>calls.push('polygon')});
+vm.runInContext(draw+'\ndrawGeometry(geometry,{}, {}, {}); drawGeometry({type:"MultiPoint",coordinates:[[1,2],[3,4]]},{},{},{}); drawGeometry({type:"MultiLineString",coordinates:[[[0,0],[1,1]],[[2,2],[3,3]]]},{},{},{});',drawContext);
+assert.deepEqual(calls,['polygon','polygon','point','point','line','line']);
+console.log('OK: render y enfoque de MultiPolygon, MultiPoint y MultiLineString');

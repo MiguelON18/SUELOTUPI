@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Visor territorial académico de San Andrés de Tupicocha para apoyar la delimitación del área de influencia y el estudio del suelo.">
   <title>SueloTUPI · Visor territorial</title>
-  <link rel="stylesheet" href="styles.css?v=beta5">
-</head>
+  <link rel="stylesheet" href="styles.css?v=mapas20261031">
+<link rel="stylesheet" href="nav-accion.css?v=20261031"><link rel="stylesheet" href="basemaps.css?v=esri20261031"></head>
 <body>
   <div class="app-shell">
     <header class="topbar">
@@ -21,11 +21,13 @@
         <strong>San Andrés de Tupicocha</strong>
         <span>Huarochirí · Lima · Perú</span>
       </div>
-      <div class="header-actions">
-        <a class="btn btn-ghost" href="dashboard.html">Ver dashboard</a>
-        <button id="presentationBtn" class="btn btn-ghost" type="button" title="Ocultar paneles para presentar">Presentar</button>
-        <a class="btn btn-primary" href="downloads/SanAndres_Tupicocha_Capas_Interactivo.kmz" download>Descargar KMZ</a>
-      </div>
+      <nav class="header-actions" aria-label="Navegación principal">
+        <a class="btn btn-ghost section-link" href="index.html" aria-current="page">Mapa</a>
+        <a class="btn btn-ghost section-link" href="dashboard.html">Datos</a>
+        <a class="btn btn-ghost section-link" href="territorio.html">Territorio y cultura</a>
+        <button id="presentationBtn" class="btn btn-ghost utility-action" type="button" title="Ocultar paneles para presentar">Presentar</button>
+        <a class="btn btn-primary utility-action" href="downloads/actualizacion_20261030/INVENTARIO_HIDRICO_RECORTADO_AII.kmz" download>Descargar agua · KMZ</a>
+      <a class="btn btn-ghost section-link" href="accion.html">Acción</a></nav>
     </header>
 
     <main class="workspace">
@@ -52,7 +54,7 @@
 
         <div class="source-note">
           <span class="source-dot"></span>
-          <div><strong>Base verificada</strong><br><span id="datasetSummary">Cargando inventario…</span></div>
+          <div><strong>Actualización sociohídrica</strong><br><span id="datasetSummary">Cargando inventario…</span><a class="mobile-download" href="downloads/actualizacion_20261030/INVENTARIO_HIDRICO_RECORTADO_AII.kmz" download>Descargar agua · KMZ</a></div>
         </div>
       </aside>
 
@@ -63,8 +65,8 @@
 
         <div class="map-title-card">
           <div class="section-kicker">Zona de estudio</div>
-          <strong>Lectura territorial para el estudio del suelo</strong>
-          <span>Selecciona un punto, línea o polígono para ver su nombre y atributos en la ficha derecha.</span>
+          <strong>Ámbitos académicos y cobertura C4 · 2025</strong>
+          <span>Arrastra para mover el mapa y usa la rueda para acercar o alejar. Haz clic en un elemento para consultar su ficha.</span>
         </div>
 
         <div class="map-controls" aria-label="Controles del mapa">
@@ -74,15 +76,16 @@
         </div>
 
         <div class="map-options">
-          <label><input id="basemapToggle" type="checkbox" checked> Mapa base</label>
+          <label><input id="basemapToggle" type="checkbox" checked> Mostrar fondo</label><label class="basemap-choice" for="basemapSelect">Mapa base<select id="basemapSelect"><option value="esri">Satélite · Esri</option><option value="osm">OpenStreetMap</option></select></label><span id="basemapStatus" role="status" hidden></span>
         </div>
+        <div class="area-controls" aria-label="Enfocar ámbito de estudio"><button id="focusAidBtn" type="button">Ver AID</button><button id="focusAiiBtn" type="button">Ver AII</button></div>
 
         <div id="scaleBar" class="scale-bar"></div>
         <div class="north-arrow" aria-label="Norte"><span>▲</span>N</div>
         <div id="offlineBasemapNote" class="offline-basemap-note" hidden>
           Vista vectorial local · el mapa base se activa al usar un servidor local o GitHub Pages
         </div>
-        <div class="map-attribution">© OpenStreetMap contributors · Datos temáticos: fuentes indicadas en cada entidad</div>
+        <div class="map-attribution" id="basemapAttribution"><a href="fuentes.html">Fuentes y créditos</a></div>
         <div id="coordinateReadout" class="coordinate-readout">—</div>
 
         <button id="openLeft" class="panel-tab left" type="button" hidden>Capas</button>
@@ -100,24 +103,29 @@
 
         <div id="welcomePanel" class="welcome-panel">
           <div class="pulse-icon" aria-hidden="true">◎</div>
-          <h3>Una lectura, no solo un mapa</h3>
+          <h3>Explora el territorio</h3>
           <p>Activa capas y selecciona elementos para relacionar cobertura, agua, población, accesibilidad, catastro y peligros.</p>
 
+          <p class="coverage-context"><strong>MapBiomas Perú · Colección 4</strong><br>Cobertura de 2025 de AII completa. <a href="dashboard.html">Comparar series 1985–2025 de AID y AII</a>.</p>
+
           <div class="metric-grid">
-            <div><strong id="layerMetric">15</strong><span>capas</span></div>
-            <div><strong id="featureMetric">750</strong><span>entidades</span></div>
+            <div><strong id="layerMetric">16</strong><span>capas</span></div>
+            <div><strong id="featureMetric">837</strong><span>entidades</span></div>
             <div><strong>2025</strong><span>cobertura</span></div>
           </div>
 
           <div class="notice-card warning">
-            <strong>AID y AII pendientes</strong>
-            <p>El visor organiza la evidencia para delimitarlas con la profesora. No dibuja límites automáticos ni arbitrarios.</p>
+            <strong>AII incluye AID</strong>
+            <p>AID: perímetro urbano referencial de 17,68 ha. AII: aporte ∩ distrito, 2636,80 ha. AII incluye AID; no sumar sus áreas.</p>
           </div>
+          <p class="coverage-context">Agricultura, contactos y puntos de inventario requieren comprobación local. No acreditan aptitud del suelo, riesgo ni alertas. Las capas de contraste se activan por separado de la cobertura.</p>
+          <p class="coverage-context"><strong>Agua interpretada</strong><br>10 rutas y 9 depósitos dibujados desde Google Earth, recortados a AII. Activa «Agua interpretada» para consultarlos. Imagen de referencia: 05/11/2023. Función y revestimiento por confirmar.</p>
+          <p class="coverage-context"><a href="downloads/actualizacion_20261030/CONTROL_ACTUALIZACION.json" download>Catálogo y fuentes de la entrega</a> · <a href="downloads/actualizacion_20261030/CONTROL_ACTUALIZACION.json" download>Control de integración</a></p>
 
-          <div class="planet-card">
-            <div class="planet-head"><span class="planet-orbit">◌</span><strong>Módulo Planet privado</strong></div>
-            <p>Previsto para detalle reciente, estratificación y verificación local. Las imágenes y valores por píxel no se publican en este visor.</p>
-            <span class="status-pill">Próxima etapa</span>
+          <div class="territory-entry">
+            <h4>Agua y memoria comunal</h4>
+            <p>Conoce el contexto del distrito, las shicras, los quipus y los antecedentes de gestión del agua.</p>
+            <a href="territorio.html">Leer territorio y cultura</a>
           </div>
         </div>
 
@@ -125,8 +133,10 @@
           <div id="featureSwatch" class="feature-swatch"></div>
           <div class="feature-layer" id="featureLayer"></div>
           <h3 id="featureTitle"></h3>
+          <p id="featureRevision" class="feature-revision"></p>
           <div id="featureTable" class="feature-table"></div>
           <button id="zoomFeatureBtn" class="btn btn-secondary" type="button">Acercar a la entidad</button>
+          <a id="featureDownload" class="feature-download" download hidden>Descargar capa y metadatos</a>
         </div>
 
         <div id="legendPanel" class="legend-panel">
@@ -138,7 +148,9 @@
   </div>
 
   <noscript>SueloTUPI necesita JavaScript para representar las capas interactivas.</noscript>
-  <script src="data/layers.js?v=beta5"></script>
-  <script src="app.js?v=beta5"></script>
+  <script src="data/layers.js?v=mapas20261031"></script>
+  <script src="map-ui.js?v=mapas20261031"></script>
+  <script src="basemaps.js?v=esri20261031"></script>
+  <script src="app.js?v=esri20261031"></script>
 </body>
 </html>

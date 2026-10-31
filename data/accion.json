@@ -1,0 +1,359 @@
+{
+  "fecha": "2026-10-31",
+  "estado": "PROPUESTA_ACADEMICA_SIN_ACUERDOS_CONFIRMADOS",
+  "programas": [
+    {
+      "id": "agua",
+      "titulo": "Agua para el estiaje",
+      "resumen": "Conservar y rehabilitar los sistemas que funcionen antes de proponer nuevas estructuras.",
+      "evidencia": "Diez trazos de canales/amunas y nueve depósitos interpretados visualmente. Se requiere comprobar función, conexión, estado y usuarios; el censo de agua doméstica no mide riego.",
+      "actividades": [
+        "A1.1",
+        "A1.2",
+        "A1.3",
+        "A1.4"
+      ],
+      "indicadores": [
+        "A11",
+        "A12",
+        "A13",
+        "A14"
+      ],
+      "actores": [
+        "comunidad",
+        "ana",
+        "aquafondo",
+        "agro",
+        "unalm",
+        "municipalidad"
+      ],
+      "accion": "Inventariar captaciones, tramos, depósitos y puntos de uso; priorizar reparación sustentada, pérdidas y mantenimiento. Evaluar alternativas de almacenamiento e infiltración según suelo, geología y demanda.",
+      "condicion_inicio": "Ficha por sistema, diagnóstico hídrico, acuerdo de usuarios, diseño y gestiones que correspondan. No convertir los dibujos en obras aprobadas.",
+      "mantenimiento": "Usuarios y custodios aceptantes por sistema: limpieza e inspección antes de lluvias; revisión de entradas, salidas, sedimentos y revestimiento. Registrar tareas, costos y fallas, con revisión después de eventos.",
+      "seguimiento": "Longitud operativa verificada, unidades con mantenimiento registrado y continuidad de servicio medida en el universo acordado. Separar agua domiciliaria, riego e infiltración.",
+      "horizonte": "Preparación 2026–2027; intervenciones justificadas 2027–2030 y mantenimiento posterior.",
+      "normas": [
+        "agua",
+        "organizacion"
+      ],
+      "metricas": [
+        {
+          "id_indicador": "A11",
+          "indicador_subsanado": "Cobertura de inventario por tipo",
+          "formula": "100 × estructuras verificadas / padrón validado del mismo tipo; si no hay padrón, informar conteo sin porcentaje",
+          "unidad": "% y conteos por tipo separados",
+          "frecuencia_propuesta": "Inventario inicial y actualización anual"
+        },
+        {
+          "id_indicador": "A12",
+          "indicador_subsanado": "Estructuras nuevas operativas con conformidad",
+          "formula": "Conteo por tipo con diseño, autorizaciones pertinentes, recepción y prueba",
+          "unidad": "unidades por tipo",
+          "frecuencia_propuesta": "Por obra y revisión de temporada"
+        },
+        {
+          "id_indicador": "A13",
+          "indicador_subsanado": "Estructuras deterioradas rehabilitadas",
+          "formula": "100 × estructuras inicialmente deterioradas/colmatadas rehabilitadas con conformidad / total de estructuras identificadas inicialmente deterioradas/colmatadas del mismo tipo",
+          "unidad": "% por tipo",
+          "frecuencia_propuesta": "Anual/por obra"
+        },
+        {
+          "id_indicador": "A14",
+          "indicador_subsanado": "Cumplimiento de mantenimiento de estructuras y drenajes",
+          "formula": "100 × unidades mantenidas conformes / unidades del padrón de estructuras hídricas y drenajes críticos; calcular por tipo sin limitar al subconjunto programado",
+          "unidad": "% por tipo",
+          "frecuencia_propuesta": "Anual pretemporada acordada"
+        }
+      ]
+    },
+    {
+      "id": "suelo",
+      "titulo": "Laderas, andenes y accesos más seguros",
+      "resumen": "Verificar los antecedentes de movimientos y los cruces de drenaje antes de diseñar medidas.",
+      "evidencia": "Cinco registros de inventario atribuidos a INGEMMET y tres contactos geométricos vía–agua en AII. No son cinco deslizamientos activos ni tres puntos críticos confirmados.",
+      "actividades": [
+        "A2.1",
+        "A2.3"
+      ],
+      "indicadores": [
+        "A21",
+        "A23a",
+        "A23b"
+      ],
+      "actores": [
+        "municipalidad",
+        "riesgo",
+        "comunidad",
+        "ana",
+        "agro",
+        "unalm"
+      ],
+      "accion": "Recuperar fichas y fechas de los antecedentes; inspeccionar laderas y andenes, obstrucciones y contactos reales. Evaluar conservación de andenes y drenajes y, donde corresponda, diseño geotécnico/hidráulico de soluciones.",
+      "condicion_inicio": "Diagnóstico del sitio y receptores, validación de que el cruce existe y revisión del titular de la vía. No dimensionar obras ni declarar zonas seguras a partir de puntos o pendiente.",
+      "mantenimiento": "Custodios de andenes y titular vial por identificar y acordar: revisar muros y drenajes antes de lluvias y tras eventos; retirar obstrucciones de forma segura según indicación técnica; registrar cambios y cierres.",
+      "seguimiento": "Sitios con ficha verificable, superficie/longitud de andenes intervenida con conformidad y mantenimiento efectuado. Comunicar obstrucciones; los umbrales de alerta requieren sustento y autoridad competente.",
+      "horizonte": "Verificación 2026–2027; priorización y diseño 2027–2030; inspección recurrente.",
+      "normas": [
+        "riesgo",
+        "suelo",
+        "agua"
+      ],
+      "metricas": [
+        {
+          "id_indicador": "A21",
+          "indicador_subsanado": "Unidades críticas con ficha y revisión técnica",
+          "formula": "100 × unidades priorizadas con ficha/evaluación requerida / unidades del padrón priorizado",
+          "unidad": "%",
+          "frecuencia_propuesta": "Anual"
+        },
+        {
+          "id_indicador": "A23a",
+          "indicador_subsanado": "Andenes prioritarios rehabilitados",
+          "formula": "100 × unidades rehabilitadas conformes / unidades inventariadas priorizadas, con unidad definida",
+          "unidad": "%",
+          "frecuencia_propuesta": "Por intervención/anual"
+        },
+        {
+          "id_indicador": "A23b",
+          "indicador_subsanado": "Obras ejecutadas con conformidad técnica",
+          "formula": "100 × obras ejecutadas con conformidad / obras ejecutadas incluidas",
+          "unidad": "%",
+          "frecuencia_propuesta": "Por obra"
+        }
+      ]
+    },
+    {
+      "id": "cabecera",
+      "titulo": "Recuperar cobertura en la cuenca alta",
+      "resumen": "Elegir regeneración natural o plantación nativa según el ecosistema, con cuidado después de instalar.",
+      "evidencia": "Cobertura y pendientes permiten explorar unidades; no acreditan fertilidad, aptitud forestal o que plantar árboles aumentará la recarga. Se prioriza mantener los ecosistemas existentes.",
+      "actividades": [
+        "A2.2",
+        "A2.4"
+      ],
+      "indicadores": [
+        "A22",
+        "A24"
+      ],
+      "actores": [
+        "comunidad",
+        "ecoan",
+        "agro",
+        "unalm",
+        "ana"
+      ],
+      "accion": "Inventariar especies, suelo y presiones; comparar regeneración asistida y pilotos de plantación. Evaluar queñuas (Polylepis spp.) solo en sitios compatibles. Maguey y shutanco del marco requieren identificación y aptitud; no se asignan automáticamente a cabecera.",
+      "condicion_inicio": "Determinación botánica y procedencia, compatibilidad ecológica y geotécnica, fuente de agua si el establecimiento lo requiere, protección y acuerdo de cuidado. No sustituir pajonales o humedales conservados por árboles.",
+      "mantenimiento": "Proponer cuidadores locales y suplentes, aceptados por los usuarios: riego de establecimiento si procede, protección frente a ganado, inspección, registro de mortalidad y reposición como cohortes separadas. Presupuestar y asegurar continuidad antes de plantar.",
+      "seguimiento": "Seguimiento propuesto a los 3, 6 y 12 meses y luego anual: supervivencia sobre cohorte original, causa de mortalidad, cobertura y costos. La edad de madurez se definirá por especie y objetivo; no se promete madurez en 2030.",
+      "horizonte": "Pilotos 2027–2030; seguimiento y cuidado hasta el establecimiento y después de 2030.",
+      "normas": [
+        "suelo",
+        "agua",
+        "organizacion"
+      ],
+      "metricas": [
+        {
+          "id_indicador": "A22",
+          "indicador_subsanado": "Supervivencia de cohorte original a12meses",
+          "formula": "100 × individuos originales vivos a12meses / individuos originales instalados; reportar no localizados y cobertura",
+          "unidad": "% por especie/sitio/cohorte",
+          "frecuencia_propuesta": "3,6,12meses propuestos y posterior según objetivo"
+        },
+        {
+          "id_indicador": "A24",
+          "indicador_subsanado": "Acuerdo de manejo con mapa y evaluación anual",
+          "formula": "Estado documental del acuerdo y conteo de evaluaciones realizadas",
+          "unidad": "estado y evaluaciones separados",
+          "frecuencia_propuesta": "Anual"
+        }
+      ]
+    },
+    {
+      "id": "comunidad",
+      "titulo": "Relevo, saberes y prevención inclusiva",
+      "resumen": "Aprovechar la experiencia local y ampliar capacidades para sostener las actividades y responder a eventos.",
+      "evidencia": "El grupo de 50+ pasa de 381 a 582 personas entre 2017 y 2025. Se observan 66 cambios de residencia hacia otros distritos en 2020–2025, 42 hacia la provincia deLima, sin identificar edades u ocupaciones de esas personas.",
+      "actividades": [
+        "A3.1",
+        "A3.2",
+        "A3.3"
+      ],
+      "indicadores": [
+        "A31a",
+        "A31b",
+        "A32a",
+        "A32b",
+        "A33"
+      ],
+      "actores": [
+        "comunidad",
+        "cultura",
+        "unalm",
+        "municipalidad",
+        "riesgo"
+      ],
+      "accion": "Organizar aprendizaje entre generaciones sobre agua, andenes y cuidado de plantas; tareas técnicas y productivas con participación voluntaria. Revisar rutas y comunicación accesible para personas con dificultades de movilidad y acordar ejercicios de preparación.",
+      "condicion_inicio": "Convocatoria inclusiva, intereses y disponibilidad de participantes; acuerdos de acceso, registro de prácticas y coordinación con autoridades. No presumir incapacidad por edad o escolaridad.",
+      "mantenimiento": "Equipos locales con relevo de funciones y custodia compartida de registros; formación práctica recurrente, revisión de contactos y rendición periódica. El mecanismo comunal de mantenimiento se acuerda, no se da por existente.",
+      "seguimiento": "Participantes únicos, competencias demostradas y actividades de educación documentadas; cumplimiento de tareas acordadas. Investigar edad y ocupación de migrantes antes de atribuir déficit laboral al éxodo juvenil.",
+      "horizonte": "Preparación 2026–2027; capacitación 2027–2030 y continuidad intergeneracional posterior.",
+      "normas": [
+        "riesgo",
+        "organizacion"
+      ],
+      "metricas": [
+        {
+          "id_indicador": "A31a",
+          "indicador_subsanado": "Personas formadas sin duplicados",
+          "formula": "Conteo de participantes únicos con criterio de formación completada",
+          "unidad": "personas",
+          "frecuencia_propuesta": "Por ciclo de formación"
+        },
+        {
+          "id_indicador": "A31b",
+          "indicador_subsanado": "Competencia práctica demostrada",
+          "formula": "100 × evaluados que cumplen rúbrica / participantes evaluados",
+          "unidad": "%",
+          "frecuencia_propuesta": "Por ciclo"
+        },
+        {
+          "id_indicador": "A32a",
+          "indicador_subsanado": "Campañas realizadas y documentadas",
+          "formula": "Conteo de campañas con plan y reporte",
+          "unidad": "campañas/año",
+          "frecuencia_propuesta": "Semestral propuesto"
+        },
+        {
+          "id_indicador": "A32b",
+          "indicador_subsanado": "Mejora de aprendizaje entre pruebas",
+          "formula": "100 × evaluados con mejora según criterio / participantes con prueba inicial y final comparables",
+          "unidad": "%",
+          "frecuencia_propuesta": "Por campaña"
+        },
+        {
+          "id_indicador": "A33",
+          "indicador_subsanado": "Mecanismo de mantenimiento y financiamiento acordado",
+          "formula": "Estado de acta, calendario, presupuesto y mecanismo evaluado; sin asumir fondos recaudados",
+          "unidad": "estado documental",
+          "frecuencia_propuesta": "Anual"
+        }
+      ]
+    }
+  ],
+  "actores": [
+    {
+      "id": "comunidad",
+      "nombre": "Comunidad, parcialidades y usuarios",
+      "aporte": "Deliberar sobre sitios y prioridades; acordar custodios, suplentes y tareas de mantenimiento con los usuarios de cada sistema.",
+      "instrumento": "Acta, padrón de usuarios y calendario aceptado; identificar organizaciones de riego y productores existentes.",
+      "fuente": "https://cdn.www.gob.pe/uploads/document/file/1395361/Ley%20General%20de%20Comunidades%20Campesinas.pdf",
+      "evidencia": "Autonomía y organización comunal: Ley 24656. Participación específica propuesta.",
+      "compromiso": "POR_COORDINAR"
+    },
+    {
+      "id": "municipalidad",
+      "nombre": "Municipalidad y titular de la vía",
+      "aporte": "Articular prevención territorial, revisión de accesos y programación de mantenimiento. Identificar qué entidad tiene a cargo cada tramo vial.",
+      "instrumento": "Plan de trabajo y presupuesto según competencias; coordinación provincial/regional cuando corresponda.",
+      "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2296148-1",
+      "evidencia": "Gestión del riesgo en planificación local: reglamento SINAGERD, art. 11.",
+      "compromiso": "POR_COORDINAR"
+    },
+    {
+      "id": "ana",
+      "nombre": "Autoridad Nacional del Agua",
+      "aporte": "Consultar la protección de fuentes y las gestiones aplicables a intervenciones en cauces y bienes asociados al agua.",
+      "instrumento": "Consulta técnica y procedimientos que correspondan; el acuerdo comunal no reemplaza las autorizaciones aplicables.",
+      "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/330691-1",
+      "evidencia": "Ley 29338, arts. 75 y104; art. 75 modificado por Ley 30640.",
+      "compromiso": "POR_COORDINAR"
+    },
+    {
+      "id": "riesgo",
+      "nombre": "INGEMMET, CENEPRED e INDECI",
+      "aporte": "Usar información de INGEMMET para contrastar antecedentes; solicitar orientación de CENEPRED en prevención/reducción y de INDECI en preparación/respuesta, según competencias.",
+      "instrumento": "Solicitud de información y asistencia canalizada con el gobierno local; fichas de sitio y productos técnicos.",
+      "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2296148-1",
+      "evidencia": "Roles diferenciados; los puntos de inventario no son una evaluación de riesgo.",
+      "compromiso": "POR_COORDINAR"
+    },
+    {
+      "id": "agro",
+      "nombre": "AGRO RURAL y SERFOR",
+      "aporte": "Explorar asistencia sobre conservación productiva, andenes y restauración con vegetación adecuada al sitio.",
+      "instrumento": "Consulta de programas y requisitos; verificar elegibilidad, ámbito, disponibilidad y soporte técnico.",
+      "fuente": "https://www.gob.pe/agrorural",
+      "evidencia": "Actores propuestos en el marco lógico del grupo; no se acredita proyecto aprobado.",
+      "compromiso": "POR_COORDINAR"
+    },
+    {
+      "id": "ecoan",
+      "nombre": "ECOAN",
+      "aporte": "Explorar cooperación para restauración de ecosistemas andinos, viverismo y seguimiento comunitario de especies nativas.",
+      "instrumento": "Propuesta de cooperación con sitios, tareas, costos y seguimiento; confirmar interés y cobertura territorial.",
+      "fuente": "https://ecoanperu.org/accion-andina/",
+      "evidencia": "Experiencia publicada en Acción Andina. No acredita convenio ni intervención en este ámbito.",
+      "compromiso": "POR_COORDINAR"
+    },
+    {
+      "id": "aquafondo",
+      "nombre": "Aquafondo",
+      "aporte": "Explorar apoyo en conservación de fuentes, infraestructura natural y articulación de actores para el agua.",
+      "instrumento": "Propuesta sustentada y evaluación de cooperación; no presumir financiamiento ni atribuir volúmenes de recarga.",
+      "fuente": "https://aquafondo.org.pe/programas-y-proyectos/siembra-de-agua-sbn/amunas/",
+      "evidencia": "La institución describe trabajo en las cuencas Chillón, Rímac y Lurín; participación local por coordinar.",
+      "compromiso": "POR_COORDINAR"
+    },
+    {
+      "id": "unalm",
+      "nombre": "UNALM y equipos de investigación",
+      "aporte": "Proponer asistencia en suelos, hidrología, identificación botánica, SIG y evaluación de resultados con aprendizaje local.",
+      "instrumento": "Plan de investigación o extensión con autorización, productos, custodia de información y devolución de resultados.",
+      "fuente": "https://www.lamolina.edu.pe/",
+      "evidencia": "Participación propuesta en el marco lógico. Sin convenio del grupo acreditado.",
+      "compromiso": "POR_COORDINAR"
+    },
+    {
+      "id": "cultura",
+      "nombre": "Portadores de saberes e instituciones educativas",
+      "aporte": "Diseñar aprendizaje intergeneracional, registro consentido de prácticas y actividades inclusivas con mujeres, jóvenes y personas mayores.",
+      "instrumento": "Acuerdos de participación y uso de registros; coordinación con Cultura y educación cuando sea pertinente.",
+      "fuente": "https://www.gob.pe/institucion/cultura/normas-legales/391137-rvm-n-236-2019-vmpcic-mc",
+      "evidencia": "Reconocimiento documental del patrimonio; no compromiso operativo de sus portadores.",
+      "compromiso": "POR_COORDINAR"
+    }
+  ],
+  "normas": [
+    {
+      "id": "riesgo",
+      "nombre": "Prevención territorial",
+      "articulo": "Reglamento SINAGERD · art. 11.1–11.3",
+      "texto": "Integrar gestión del riesgo en planificación local y evaluar la vulnerabilidad de proyectos y la que podrían generar. D.S. 048-2011-PCM, texto modificado por D.S. 060-2024-PCM.",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2296148-1"
+    },
+    {
+      "id": "agua",
+      "nombre": "Fuentes y obras hidráulicas",
+      "articulo": "Ley 29338 · arts. 75 y104",
+      "texto": "Protección de fuentes y ecosistemas asociados; aprobación de obras en cauces y bienes asociados según corresponda. Art.75 modificado por Ley 30640: la AII del estudio no declara por sí misma una cabecera intangible.",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/330691-1"
+    },
+    {
+      "id": "suelo",
+      "nombre": "Conservación del suelo",
+      "articulo": "Ley 28611 · art. 91",
+      "texto": "Promover uso sostenible del suelo y prevenir o reducir pérdida y deterioro por erosión o contaminación; sustenta el enfoque de conservación, no una aptitud de cultivo derivada de MapBiomas.",
+      "url": "https://spij.minjus.gob.pe/Normas/textos/151005T.pdf"
+    },
+    {
+      "id": "organizacion",
+      "nombre": "Decisiones y presupuesto comunal",
+      "articulo": "Ley 24656 · arts. 17 y18.e",
+      "texto": "La Asamblea General es órgano supremo y aprueba el presupuesto anual. El calendario, los responsables y los aportes se acuerdan con las organizaciones y usuarios correspondientes.",
+      "url": "https://cdn.www.gob.pe/uploads/document/file/1395361/Ley%20General%20de%20Comunidades%20Campesinas.pdf"
+    }
+  ],
+  "practica_clase_integrada": false
+}

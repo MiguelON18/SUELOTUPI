@@ -1,0 +1,40 @@
+{
+  "fecha_revision": "2026-10-31",
+  "mapbiomas": {
+    "cita": "MapBiomas – Colección 4 de la Serie anual de Mapas de Cobertura y Uso del Suelo de Perú, consultada el 31/10/2026 a través del enlace: https://peru.mapbiomas.org/.",
+    "licencia": "Creative Commons CC BY según términos del productor",
+    "terminos": "https://old-peru.mapbiomas.org/terminos-de-uso/",
+    "adaptacion": "Recorte y cálculo de superficies por el equipo para AID y AII. No es un producto oficial de validación de suelo."
+  },
+  "inei": {
+    "cita": "Instituto Nacional de Estadística e Informática (INEI). Censos Nacionales 2017 y 2025. Datos agregados distritales de San Andrés de Tupicocha, UBIGEO 150715.",
+    "procesamiento_intermedio": "Oscar Salas (@osalasmo), Censo Perú 2017 vs 2025, proyecto independiente no oficial. https://censo-2025.appsbi.net/",
+    "adaptacion": "Selección, cálculos y visualización del equipo. Cada pregunta conserva su universo y notas de comparabilidad."
+  },
+  "copernicus": {
+    "cita": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+    "doi": "https://doi.org/10.5270/ESA-c5d3d65",
+    "fuente": "https://registry.opendata.aws/copernicus-dem/",
+    "licencia_y_cita": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+    "adaptacion": "Aporte superficial, pendientes y curvas derivados del DSM GLO30; no terreno desnudo ni levantamiento de campo."
+  },
+  "esri": {
+    "cita": "Esri · Vantor · Earthstar Geographics · GIS User Community",
+    "credito_servicio": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "uso": "World Imagery como fondo online; logotipo y créditos visibles. Fecha de las escenas no atribuida a 2023 o 2025."
+  },
+  "osm": {
+    "cita": "© OpenStreetMap contributors",
+    "derechos": "https://www.openstreetmap.org/copyright"
+  },
+  "minam": {
+    "cita": "MINAM, Geoservidor, ZEE Puno: referencia de intervalos y colores de pendientes. Los datos de Tupicocha fueron calculados localmente.",
+    "url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ZEE_VISOR/14_CARACTERIZACI%C3%93N_TERRITORIAL_PUNO/MapServer/25"
+  },
+  "ingemmet": {
+    "cita": "INGEMMET, proyecto GA-28, fuente declarada en atributos de inventario secundario. Ficha y fecha original pendientes de recuperar; no evaluación de riesgo o alerta vigente."
+  },
+  "agua_visual": {
+    "cita": "Delimitado por observación visual del grupo en Google Earth Pro; imagen fechada 05/11/2023 según información del grupo. Función e infraestructura por confirmar."
+  }
+}

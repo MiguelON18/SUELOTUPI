@@ -1,0 +1,23 @@
+.social-section { margin: 20px 0; }
+.social-section > p { max-width: 74ch; }
+.social-columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 28px; margin-top: 24px; }
+.social-columns > div { min-width: 0; }
+.social-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.social-table th, .social-table td { padding: 11px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+.social-table thead { color: var(--green-dark); }
+.social-table tbody th { font-weight: 600; }
+.social-columns .social-table { table-layout: fixed; }
+.social-columns .social-table th:first-child { width: 40%; }
+.social-table details { max-width: 65ch; font-weight: 400; font-size: 12px; margin-top: 7px; }
+.social-table summary { cursor: pointer; color: var(--green-dark); }
+.social-table details p { line-height: 1.6; }
+.social-track { height: 7px; margin-top: 7px; width: 100%; }
+.social-bar { display: block; height: 7px; background: #236447; }
+.social-bar.previous { background: #b3c3b8; outline: 1px solid #5b7162; outline-offset: -1px; }
+.social-connectivity { margin: 10px 0 24px; }
+.social-connectivity > div { display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.social-connectivity dd { margin: 0; text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+.social-details { margin-top: 24px; }
+.social-details > summary { font-size: 15px; font-weight: 700; cursor: pointer; padding: 10px 0; }
+.social-footnote { color: var(--muted); font-size: 12px; line-height: 1.6; }
+@media (max-width: 800px) { .social-columns { grid-template-columns: 1fr; } .social-table th, .social-table td { padding: 10px 8px; } }

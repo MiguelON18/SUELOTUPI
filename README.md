@@ -1,59 +1,35 @@
 # SueloTUPI
 
-Visor territorial académico y ligero de San Andrés de Tupicocha para apoyar la lectura conjunta de cobertura del suelo, microcuenca, población, catastro, vías, hidrología y peligros.
+Visor académico de planificación ambiental de San Andrés de Tupicocha, Huarochirí, Lima, Perú.
 
-## Estado de la Beta
+**Web:** https://MiguelON18.github.io/SUELOTUPI/
 
-- 15 capas y 750 entidades procedentes del KMZ validado.
-- Navegación, búsqueda, leyenda dinámica, control de visibilidad e identificación por clic.
-- El mapa se mantiene libre de etiquetas permanentes: el nombre y los atributos aparecen únicamente al seleccionar una entidad, dentro de la ficha derecha.
-- Mapa base OpenStreetMap opcional al ejecutar mediante HTTP o GitHub Pages.
-- Al abrir `index.html` directamente como archivo, el visor desactiva el mapa base para evitar el bloqueo 403 del proveedor y conserva todas las capas vectoriales.
-- Descarga del KMZ para Google Earth Pro.
-- Dashboard MapBiomas–INEI con serie anual 1985–2025 para la microcuenca, composición por clase, balance respecto de 1985 y contexto censal distrital 2017.
-- AID y AII deliberadamente pendientes de delimitación participativa.
-- Planet reservado para análisis privado; no hay imágenes ni derivados restringidos en este repositorio.
+## Versión publicada el 31 de octubre de 2026
 
-## Vista local
+- Mapa con 17 capas y 789 entidades, filtros por clase MapBiomas, fichas resumidas, zoom y arrastre.
+- AID referencial del casco urbano: 17,683204 ha. AII: aporte superficial Copernicus intersecado con el distrito, 2636,801906 ha. AII incluye AID.
+- Pendientes porcentuales y curvas cada 50 m, principales cada 250 m, derivadas del DSM Copernicus GLO30.
+- Datos MapBiomas Perú Colección 4 de 1985–2025 recalculados para los ámbitos actuales.
+- Censos distritales 2017 y 2025: edades, agua, educación, movilidad, lengua y residencia anterior; con bases y notas de comparación.
+- Territorio y cultura, panorama del pueblo y cuatro programas de Acción con actores propuestos, mantenimiento e indicadores.
+- Esri World Imagery y OpenStreetMap como mapas base online, con atribución visible.
 
-Desde esta carpeta, iniciar un servidor estático:
+## Fuentes y créditos
 
-```bash
-python3 -m http.server 8000
-```
+La citación completa, licencias y adaptaciones se describen en [Fuentes y créditos](fuentes.html) y [metadatos de créditos](data/creditos.json). Los productos mantienen las licencias de sus proveedores; no se aplica una licencia única a todos los datos.
 
-Abrir `http://localhost:8000`. Esta es la forma recomendada para probar también el mapa base.
+Origen de cobertura: MapBiomas Perú. Origen censal: INEI; extracción y armonización intermedia de Oscar Salas, proyecto independiente no oficial. Relieve: Copernicus WorldDEM-30, atribución de DLR, Airbus, Unión Europea y ESA conservada. Se identifican por separado los resultados y las interpretaciones del equipo.
 
-## Publicación en GitHub Pages
+No se publican geodatabases, insumos originales, credenciales, imágenes Planet ni paquetes históricos de otras delimitaciones. La publicación de las geometrías recortadas fue autorizada por Jhoreck el 31/10/2026.
 
-1. Crear un repositorio público, por ejemplo `suelotupi`.
-2. Subir el contenido de esta carpeta a la rama `main`.
-3. En GitHub: **Settings → Pages → Build and deployment**.
-4. Elegir **Deploy from a branch**, rama `main` y carpeta `/ (root)`.
-5. Guardar y esperar la URL `https://USUARIO.github.io/suelotupi/`.
+## Alcance
 
-No subir claves, archivos Planet, GeoTIFF, bandas, reflectancia, píxeles, tiles privados ni URLs autenticadas.
+Los límites son ámbitos académicos referenciales. Cobertura y agricultura no certifican fertilidad, tipo de suelo o aptitud; inventarios y contactos no son huellas de eventos ni alertas. El censo corresponde al distrito completo. Las propuestas no acreditan convenios, financiamiento ni ejecución de obras; se conservan los faltantes de campo.
 
-## Reconstrucción de datos
+## Uso y comprobación
 
-El archivo `data/layers.js` se genera desde el KMZ validado:
+Sitio estático, sin instalación ni cuenta para consultarlo. Abrir la dirección web y utilizar Mapa, Datos, Territorio y cultura y Acción. La cartografía de fondo requiere internet.
 
-```bash
-python3 scripts/build_layers.py
-```
+Para ejecutar localmente: `python3 -m http.server 8000` desde la carpeta del sitio. Pruebas de interacción por código: `node --test scripts/test_*.cjs`.
 
-El proceso usa únicamente la biblioteca estándar de Python y conserva la trazabilidad con el entregable cartográfico.
-
-El snapshot agregado del dashboard se reconstruye desde los CSV locales de MapBiomas:
-
-```bash
-python3 scripts/build_dashboard_data.py
-```
-
-El script valida claves duplicadas, valores negativos, estabilidad del área, conciliación entre clases y totales, y coincidencia con el corte 2025 antes de generar `data/dashboard.js`.
-
-## Fuentes y límites
-
-Las fuentes detalladas aparecen en los atributos de cada capa y en el bloque de trazabilidad del dashboard. La simbología de cobertura sigue la leyenda de MapBiomas Perú Colección 4. La serie MapBiomas representa la microcuenca de trabajo; el contexto social corresponde al distrito completo según publicaciones oficiales del INEI para 2017. El mapa base corresponde a OpenStreetMap y requiere conexión a Internet.
-
-Este visor es una herramienta de exploración para el curso de Planificación Ambiental. No reemplaza trabajo de campo, análisis de laboratorio ni una delimitación ambiental sustentada del AID/AII.
+Los reconstructores de versiones antiguas no deben ejecutarse sobre esta versión: usarían fuentes o delimitaciones sustituidas. La historia anterior permanece conservada en Git.
