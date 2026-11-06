@@ -1,0 +1,12 @@
+actividad,partida_por_definir,unidad,metrado,precio_unitario_PEN,subtotal_PEN,fuente_precio,fecha_cotizacion,localidad,incluye_IGV,rendimiento,costo_O_M_anual_PEN,horizonte_O_M_anios,evidencia_faltante
+A1.1,Inventario y diagnóstico de sistemas hídricos,,,,,,,,,,,,"Sistemas y tramos a verificar; jornadas y perfiles técnicos; transporte, instrumentos y productos."
+A1.2,Nuevas estructuras hídricas,,,,,,,,,,,,"Diseño por tipo, topografía, geotecnia, hidrología, volumen útil, partidas de obra, permisos y supervisión."
+A1.3,Rehabilitación de estructuras hídricas,,,,,,,,,,,,"Padrón de unidades deterioradas, diagnóstico, metrados de limpieza/reparación y acceso."
+A1.4,Mantenimiento de sistemas hídricos,,,,,,,,,,,,"Unidades operativas, frecuencia anual, cuadrillas, herramientas y registro de tareas."
+A2.1,Diagnóstico de laderas y seguimiento,,,,,,,,,,,,"Áreas/sitios, campañas, productos, vuelos solo si aportan evidencia, procesamiento y revisión especializada."
+A2.2,Restauración y revegetación,,,,,,,,,,,,"Sitios y especies compatibles, hectáreas/individuos, procedencia, instalación, protección, riego y seguimiento."
+A2.3,Conservación de andenes y laderas,,,,,,,,,,,,"Padrón y selección de andenes; longitud/volumen por reparación, drenaje, materiales y acarreo."
+A2.4,Acuerdos y seguimiento de uso,,,,,,,,,,,,"Reuniones, consultas, cartografía y evaluaciones con productos definidos."
+A3.1,Capacitación técnica,,,,,,,,,,,,"Número de sesiones, asistentes, facilitación, práctica, materiales, movilidad y evaluación."
+A3.2,Campañas de educación ambiental,,,,,,,,,,,,"Campañas, públicos, productos y costos por campaña; verificar programación EDUCCA y recursos."
+A3.3,Organización y continuidad,,,,,,,,,,,,"Consultas, formalización que corresponda, registro, planificación y administración de mantenimiento."

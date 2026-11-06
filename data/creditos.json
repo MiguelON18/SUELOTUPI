@@ -1,5 +1,5 @@
 {
-  "fecha_revision": "2026-10-31",
+  "fecha_revision": "2026-11-06",
   "mapbiomas": {
     "cita": "MapBiomas – Colección 4 de la Serie anual de Mapas de Cobertura y Uso del Suelo de Perú, consultada el 31/10/2026 a través del enlace: https://peru.mapbiomas.org/.",
     "licencia": "Creative Commons CC BY según términos del productor",
@@ -35,6 +35,6 @@
     "cita": "INGEMMET, proyecto GA-28, fuente declarada en atributos de inventario secundario. Ficha y fecha original pendientes de recuperar; no evaluación de riesgo o alerta vigente."
   },
   "agua_visual": {
-    "cita": "Delimitado por observación visual del grupo en Google Earth Pro; imagen fechada 05/11/2023 según información del grupo. Función e infraestructura por confirmar."
+    "cita": "Delimitado por observación visual del grupo en Google Earth Pro; imagen del 05/11/2023 según confirmación del grupo del 06/11/2026. Entrega de 37 depósitos y 10 trazos. Función, uso, material y conexión por verificar."
   }
 }

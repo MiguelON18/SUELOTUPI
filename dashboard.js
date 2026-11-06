@@ -1,7 +1,7 @@
 (() => {
   "use strict";
   const data = window.SUELOTUPI_DASHBOARD;
-  if (!data || !data.areas) throw new Error("No se encontró el contrato v07 del dashboard. Vuelve a cargar la página.");
+  if (!data || !data.areas) throw new Error("No se pudieron cargar los datos. Vuelve a cargar la página.");
   const byId = id => document.getElementById(id);
   let selectedIndex = data.years.indexOf(data.project.latestYear);
   const yearSelect = byId("yearSelect"), areaSelect = byId("areaSelect");

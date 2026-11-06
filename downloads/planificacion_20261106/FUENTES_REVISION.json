@@ -1,0 +1,69 @@
+{
+  "fecha_consulta": "2026-11-06",
+  "fuentes": [
+    {
+      "id": "amunas2019",
+      "cita": "Ochoa-Tocachi, B. F., et al. (2019). Potential contributions of pre-Inca infiltration infrastructure to Andean water security. Nature Sustainability, 2, 584–593.",
+      "url": "https://doi.org/10.1038/s41893-019-0307-1",
+      "lectura": "https://www.forest-trends.org/wp-content/uploads/2019/10/BRIEF-AMUNAS-COMPLETO.pdf",
+      "alcance": "Publicación científica; traducción del estudio consultada. Sitio Huamantanga, no Tupicocha.",
+      "uso": "Monitoreo de infiltración y conexión con manantiales; no asignar caudales o tiempos del estudio a los dibujos locales."
+    },
+    {
+      "id": "andenes2000",
+      "cita": "Inbar, M., & Llerena, C. A. (2000). Erosion processes in High Mountain agricultural terraces in Peru. Mountain Research and Development, 20(1), 72–79.",
+      "url": "https://doi.org/10.1659/0276-4741(2000)020[0072:EPIHMA]2.0.CO;2",
+      "lectura": "https://cris.haifa.ac.il/en/publications/erosion-processes-in-high-mountain-agricultural-terraces-in-peru-2/",
+      "alcance": "Resumen y ficha primaria de la universidad consultados. Experimentos en Santa Eulalia.",
+      "uso": "Relaciona cobertura, estado de muros y escorrentía; sustenta inspección y mantenimiento de andenes, sin trasladar tasas de erosión a Tupicocha."
+    },
+    {
+      "id": "bosques2019",
+      "cita": "Bonnesoeur, V., et al. (2019). Impacts of forests and forestation on hydrological services in the Andes: A systematic review. Forest Ecology and Management, 433, 569–584.",
+      "url": "https://doi.org/10.1016/j.foreco.2018.11.033",
+      "lectura": "https://research.wur.nl/en/publications/impacts-of-forests-and-forestation-on-hydrological-services-in-th/",
+      "alcance": "Resumen y registro primario consultados; revisión de estudios andinos.",
+      "uso": "Evaluar protección de ecosistemas existentes y efectos sobre agua; no prometer que plantar árboles incrementará el recurso hídrico."
+    },
+    {
+      "id": "qochas2022",
+      "cita": "Ochoa-Tocachi, B. F., Cuadros-Adriazola, J., & Bonnesoeur, V. (2022). Documento metodológico: Qochas – CUBHIC 2.0. Forest Trends.",
+      "url": "https://www.forest-trends.org/publications/documento-metodologico-qochas-cubhic-2-0/",
+      "lectura": "https://www.forest-trends.org/publications/documento-metodologico-qochas-cubhic-2-0/",
+      "alcance": "Metodología técnica y descripción del productor consultadas.",
+      "uso": "Distinguir reservorio impermeable de qocha permeable; área dibujada no determina capacidad ni beneficio hídrico."
+    },
+    {
+      "id": "midagri2022",
+      "cita": "MIDAGRI (2022). Lineamientos para la formulación y evaluación de proyectos de inversión de la tipología de Siembra y Cosecha de Agua.",
+      "url": "https://www.gob.pe/institucion/midagri/informes-publicaciones/3022937-lineamientos-de-siembra-y-cosecha-de-agua",
+      "lectura": "https://www.mef.gob.pe/contenidos/inv_publica/docs/metodologia_sectorial/Lineamientos_de_Siembra_y_Cosecha_de_Agua.pdf",
+      "alcance": "Ficha oficial y extracto indexado de tablas 16–17; PDF completo no recuperado en esta revisión.",
+      "uso": "Estructurar cantidades, precios unitarios y operación/mantenimiento; los costos de ejemplo de 2022 no son cotizaciones locales de 2026."
+    },
+    {
+      "id": "iso",
+      "cita": "ISO (2026). ISO 14001:2026. Environmental management systems — Requirements with guidance for use.",
+      "url": "https://www.iso.org/standard/14001",
+      "lectura": "https://www.iso.org/standard/14001",
+      "alcance": "Ficha y descripción oficial pública consultadas; no se reproduce la norma ni se declara certificación.",
+      "uso": "Marco orientador de gestión y mejora continua; la guía docente no especifica edición. La política propuesta necesita aprobación de quienes la adopten."
+    },
+    {
+      "id": "erosion2022",
+      "cita": "Vanacker, V., Molina, A., Rosas, M. A., Bonnesoeur, V., Román-Dañobeytia, F., Ochoa-Tocachi, B. F., & Buytaert, W. (2022). The effect of natural infrastructure on water erosion mitigation in the Andes. SOIL, 8, 133–147.",
+      "url": "https://doi.org/10.5194/soil-8-133-2022",
+      "lectura": "https://soil.copernicus.org/articles/8/133/2022/",
+      "alcance": "Artículo abierto consultado: resumen, introducción y conclusiones pertinentes. Revisión de 118 casos andinos.",
+      "uso": "Orienta la conservación de vegetación y el control de erosión. La eficacia de medidas de parcela no acredita igual beneficio a escala de cuenca o durante eventos extremos."
+    },
+    {
+      "id": "zanjas2018",
+      "cita": "Somers, L. D., McKenzie, J. M., Zipper, S. C., Mark, B. G., Lagos, P., & Baraer, M. (2018). Does hillslope trenching enhance groundwater recharge and baseflow in the Peruvian Andes? Hydrological Processes, 32(3), 318–331.",
+      "url": "https://doi.org/10.1002/hyp.11423",
+      "lectura": "https://pure.etsmtl.ca/en/publications/does-hillslope-trenching-enhance-groundwater-recharge-and-baseflo/",
+      "alcance": "Resumen y ficha primaria de ÉTS consultados. Estudio con datos y modelación de una subcuenca de Shullcas; no evaluación local de Tupicocha.",
+      "uso": "La ubicación de las zanjas y el flujo subterráneo condicionan el efecto sobre estiaje. No valida las dimensiones de microcaptaciones compartidas ni permite extrapolar beneficios numéricos."
+    }
+  ]
+}

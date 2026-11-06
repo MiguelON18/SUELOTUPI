@@ -349,7 +349,7 @@
 
   function createLayerPanel() {
     const container = document.getElementById("layerList");
-    const order = ["Ámbitos vigentes", "Cobertura C4", "Relieve", "Pueblo y servicios", "Agua y accesos", "Agua interpretada", "Antecedentes y comprobación", "Contraste de uso y suelo", "Control hidrológico"];
+    const order = ["Ámbitos vigentes", "Cobertura C4", "Relieve", "Pueblo y servicios", "Agua y accesos", "Agua interpretada", "Agua · contexto exterior", "Antecedentes y comprobación", "Contraste de uso y suelo", "Control hidrológico"];
     const groups = [...new Set(data.layers.map(layer => layer.group))].sort((a,b) => order.indexOf(a) - order.indexOf(b));
     for (const groupName of groups) {
       const group = document.createElement("section"); group.className = "layer-group";
@@ -586,7 +586,7 @@
   function init() {
     document.getElementById("layerMetric").textContent = data.project.layerCount;
     document.getElementById("featureMetric").textContent = data.project.featureCount;
-    document.getElementById("datasetSummary").textContent = `${data.project.layerCount} capas · ${data.project.featureCount} entidades · actualización local`;
+    document.getElementById("datasetSummary").textContent = `${data.project.layerCount} capas · ${data.project.featureCount} entidades · información territorial`;
     createLayerPanel(); updateLegend(); setupSearch(); setupMapEvents(); setupControls();
     new ResizeObserver(resizeCanvas).observe(map);
     resizeCanvas();

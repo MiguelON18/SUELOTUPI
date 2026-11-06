@@ -1,12 +1,12 @@
 {
-  "fecha": "2026-10-31",
+  "fecha": "2026-11-06",
   "estado": "PROPUESTA_ACADEMICA_SIN_ACUERDOS_CONFIRMADOS",
   "programas": [
     {
       "id": "agua",
       "titulo": "Agua para el estiaje",
       "resumen": "Conservar y rehabilitar los sistemas que funcionen antes de proponer nuevas estructuras.",
-      "evidencia": "Diez trazos de canales/amunas y nueve depósitos interpretados visualmente. Se requiere comprobar función, conexión, estado y usuarios; el censo de agua doméstica no mide riego.",
+      "evidencia": "Diez trazos de canales/amunas y 21 depósitos con parte dentro de AII, interpretados visualmente; 16 depósitos exteriores se conservan como contexto. Función, conexión, estado y usuarios por verificar.",
       "actividades": [
         "A1.1",
         "A1.2",
@@ -28,8 +28,8 @@
         "municipalidad"
       ],
       "accion": "Inventariar captaciones, tramos, depósitos y puntos de uso; priorizar reparación sustentada, pérdidas y mantenimiento. Evaluar alternativas de almacenamiento e infiltración según suelo, geología y demanda.",
-      "condicion_inicio": "Ficha por sistema, diagnóstico hídrico, acuerdo de usuarios, diseño y gestiones que correspondan. No convertir los dibujos en obras aprobadas.",
-      "mantenimiento": "Usuarios y custodios aceptantes por sistema: limpieza e inspección antes de lluvias; revisión de entradas, salidas, sedimentos y revestimiento. Registrar tareas, costos y fallas, con revisión después de eventos.",
+      "condicion_inicio": "Ficha por sistema, balance de oferta y demanda de agua, acuerdo de usuarios, diseño y autorizaciones pertinentes.",
+      "mantenimiento": "Usuarios y responsables acordados por sistema: limpieza e inspección antes de lluvias; revisión de entradas, salidas, sedimentos y revestimiento. Registrar tareas, costos y fallas, con revisión después de eventos.",
       "seguimiento": "Longitud operativa verificada, unidades con mantenimiento registrado y continuidad de servicio medida en el universo acordado. Separar agua domiciliaria, riego e infiltración.",
       "horizonte": "Preparación 2026–2027; intervenciones justificadas 2027–2030 y mantenimiento posterior.",
       "normas": [
@@ -71,7 +71,7 @@
       "id": "suelo",
       "titulo": "Laderas, andenes y accesos más seguros",
       "resumen": "Verificar los antecedentes de movimientos y los cruces de drenaje antes de diseñar medidas.",
-      "evidencia": "Cinco registros de inventario atribuidos a INGEMMET y tres contactos geométricos vía–agua en AII. No son cinco deslizamientos activos ni tres puntos críticos confirmados.",
+      "evidencia": "Cinco antecedentes atribuidos a INGEMMET y tres posibles cruces de drenaje y vía orientan la inspección. Su condición actual y la existencia de cruces reales requieren comprobación.",
       "actividades": [
         "A2.1",
         "A2.3"
@@ -127,7 +127,7 @@
       "id": "cabecera",
       "titulo": "Recuperar cobertura en la cuenca alta",
       "resumen": "Elegir regeneración natural o plantación nativa según el ecosistema, con cuidado después de instalar.",
-      "evidencia": "Cobertura y pendientes permiten explorar unidades; no acreditan fertilidad, aptitud forestal o que plantar árboles aumentará la recarga. Se prioriza mantener los ecosistemas existentes.",
+      "evidencia": "La cobertura y el relieve orientan la evaluación de sitios para conservar o recuperar vegetación. La compatibilidad del suelo y los efectos sobre el agua requieren evaluación local.",
       "actividades": [
         "A2.2",
         "A2.4"
@@ -145,7 +145,7 @@
       ],
       "accion": "Inventariar especies, suelo y presiones; comparar regeneración asistida y pilotos de plantación. Evaluar queñuas (Polylepis spp.) solo en sitios compatibles. Maguey y shutanco del marco requieren identificación y aptitud; no se asignan automáticamente a cabecera.",
       "condicion_inicio": "Determinación botánica y procedencia, compatibilidad ecológica y geotécnica, fuente de agua si el establecimiento lo requiere, protección y acuerdo de cuidado. No sustituir pajonales o humedales conservados por árboles.",
-      "mantenimiento": "Proponer cuidadores locales y suplentes, aceptados por los usuarios: riego de establecimiento si procede, protección frente a ganado, inspección, registro de mortalidad y reposición como cohortes separadas. Presupuestar y asegurar continuidad antes de plantar.",
+      "mantenimiento": "Acordar cuidadores locales y suplentes con los usuarios: riego de establecimiento si procede, protección frente a ganado, inspección, registro de mortalidad y reposición como cohortes separadas. Presupuestar y asegurar continuidad antes de plantar.",
       "seguimiento": "Seguimiento propuesto a los 3, 6 y 12 meses y luego anual: supervivencia sobre cohorte original, causa de mortalidad, cobertura y costos. La edad de madurez se definirá por especie y objetivo; no se promete madurez en 2030.",
       "horizonte": "Pilotos 2027–2030; seguimiento y cuidado hasta el establecimiento y después de 2030.",
       "normas": [
@@ -156,10 +156,10 @@
       "metricas": [
         {
           "id_indicador": "A22",
-          "indicador_subsanado": "Supervivencia de cohorte original a12meses",
-          "formula": "100 × individuos originales vivos a12meses / individuos originales instalados; reportar no localizados y cobertura",
+          "indicador_subsanado": "Supervivencia de cohorte original a 12 meses",
+          "formula": "100 × individuos originales vivos a 12 meses / individuos originales instalados; reportar no localizados y cobertura",
           "unidad": "% por especie/sitio/cohorte",
-          "frecuencia_propuesta": "3,6,12meses propuestos y posterior según objetivo"
+          "frecuencia_propuesta": "3, 6 y 12 meses propuestos y posterior según objetivo"
         },
         {
           "id_indicador": "A24",
@@ -174,7 +174,7 @@
       "id": "comunidad",
       "titulo": "Relevo, saberes y prevención inclusiva",
       "resumen": "Aprovechar la experiencia local y ampliar capacidades para sostener las actividades y responder a eventos.",
-      "evidencia": "El grupo de 50+ pasa de 381 a 582 personas entre 2017 y 2025. Se observan 66 cambios de residencia hacia otros distritos en 2020–2025, 42 hacia la provincia deLima, sin identificar edades u ocupaciones de esas personas.",
+      "evidencia": "El grupo de 50+ pasa de 381 a 582 personas entre 2017 y 2025. Se observan 66 cambios de residencia hacia otros distritos en 2020–2025, 42 hacia la provincia de Lima, sin identificar edades u ocupaciones de esas personas.",
       "actividades": [
         "A3.1",
         "A3.2",
@@ -196,7 +196,7 @@
       ],
       "accion": "Organizar aprendizaje entre generaciones sobre agua, andenes y cuidado de plantas; tareas técnicas y productivas con participación voluntaria. Revisar rutas y comunicación accesible para personas con dificultades de movilidad y acordar ejercicios de preparación.",
       "condicion_inicio": "Convocatoria inclusiva, intereses y disponibilidad de participantes; acuerdos de acceso, registro de prácticas y coordinación con autoridades. No presumir incapacidad por edad o escolaridad.",
-      "mantenimiento": "Equipos locales con relevo de funciones y custodia compartida de registros; formación práctica recurrente, revisión de contactos y rendición periódica. El mecanismo comunal de mantenimiento se acuerda, no se da por existente.",
+      "mantenimiento": "Equipos locales con relevo de funciones y custodia compartida de registros; formación práctica recurrente, revisión de contactos y rendición periódica. El mecanismo de mantenimiento debe ser acordado por sus participantes.",
       "seguimiento": "Participantes únicos, competencias demostradas y actividades de educación documentadas; cumplimiento de tareas acordadas. Investigar edad y ocupación de migrantes antes de atribuir déficit laboral al éxodo juvenil.",
       "horizonte": "Preparación 2026–2027; capacitación 2027–2030 y continuidad intergeneracional posterior.",
       "normas": [
@@ -276,7 +276,7 @@
       "aporte": "Usar información de INGEMMET para contrastar antecedentes; solicitar orientación de CENEPRED en prevención/reducción y de INDECI en preparación/respuesta, según competencias.",
       "instrumento": "Solicitud de información y asistencia canalizada con el gobierno local; fichas de sitio y productos técnicos.",
       "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2296148-1",
-      "evidencia": "Roles diferenciados; los puntos de inventario no son una evaluación de riesgo.",
+      "evidencia": "Competencias diferenciadas para información geológica, prevención y respuesta; coordinar con el gobierno local.",
       "compromiso": "POR_COORDINAR"
     },
     {
@@ -285,7 +285,7 @@
       "aporte": "Explorar asistencia sobre conservación productiva, andenes y restauración con vegetación adecuada al sitio.",
       "instrumento": "Consulta de programas y requisitos; verificar elegibilidad, ámbito, disponibilidad y soporte técnico.",
       "fuente": "https://www.gob.pe/agrorural",
-      "evidencia": "Actores propuestos en el marco lógico del grupo; no se acredita proyecto aprobado.",
+      "evidencia": "Asistencia y elegibilidad de programas por consultar según el tipo de intervención.",
       "compromiso": "POR_COORDINAR"
     },
     {
@@ -294,7 +294,7 @@
       "aporte": "Explorar cooperación para restauración de ecosistemas andinos, viverismo y seguimiento comunitario de especies nativas.",
       "instrumento": "Propuesta de cooperación con sitios, tareas, costos y seguimiento; confirmar interés y cobertura territorial.",
       "fuente": "https://ecoanperu.org/accion-andina/",
-      "evidencia": "Experiencia publicada en Acción Andina. No acredita convenio ni intervención en este ámbito.",
+      "evidencia": "Experiencia publicada en Acción Andina; la cooperación en Tupicocha requiere concertación.",
       "compromiso": "POR_COORDINAR"
     },
     {
@@ -312,7 +312,7 @@
       "aporte": "Proponer asistencia en suelos, hidrología, identificación botánica, SIG y evaluación de resultados con aprendizaje local.",
       "instrumento": "Plan de investigación o extensión con autorización, productos, custodia de información y devolución de resultados.",
       "fuente": "https://www.lamolina.edu.pe/",
-      "evidencia": "Participación propuesta en el marco lógico. Sin convenio del grupo acreditado.",
+      "evidencia": "Cooperación propuesta para investigación y extensión; requiere acuerdo institucional.",
       "compromiso": "POR_COORDINAR"
     },
     {
@@ -321,7 +321,7 @@
       "aporte": "Diseñar aprendizaje intergeneracional, registro consentido de prácticas y actividades inclusivas con mujeres, jóvenes y personas mayores.",
       "instrumento": "Acuerdos de participación y uso de registros; coordinación con Cultura y educación cuando sea pertinente.",
       "fuente": "https://www.gob.pe/institucion/cultura/normas-legales/391137-rvm-n-236-2019-vmpcic-mc",
-      "evidencia": "Reconocimiento documental del patrimonio; no compromiso operativo de sus portadores.",
+      "evidencia": "Participación voluntaria de portadores, con reconocimiento y uso consentido de sus conocimientos.",
       "compromiso": "POR_COORDINAR"
     }
   ],
@@ -355,5 +355,19 @@
       "url": "https://cdn.www.gob.pe/uploads/document/file/1395361/Ley%20General%20de%20Comunidades%20Campesinas.pdf"
     }
   ],
-  "practica_clase_integrada": false
+  "practica_clase_integrada": {
+    "numero": 7,
+    "tema": "Política ambiental",
+    "estado": "Borrador académico territorial; no aprobado por autoridades o comunidad",
+    "fuente": "GUIA DE TRABAJO PRACTICA 7-2026-II.docx"
+  },
+  "politica_propuesta": "Para contribuir a la seguridad hídrica de la AID y la AII de San Andrés de Tupicocha se propone conservar el suelo, los andenes y las fuentes de agua, respetando los ecosistemas de cabecera, el patrimonio cultural y los saberes de sus portadores. La política plantea prevenir y controlar la contaminación asociada al manejo del agua, las actividades agrícolas y las intervenciones de conservación; cumplir la legislación ambiental aplicable y los acuerdos válidamente asumidos; y mejorar continuamente el desempeño ambiental mediante objetivos medibles, seguimiento y corrección de las acciones. Se promueve participación informada e inclusiva, coordinación con las autoridades competentes y decisiones basadas en evidencia. Cada intervención deberá prever cuidado, recursos y responsables que acepten su cuidado durante su vida útil. La política se comunicará a los interesados y se revisará periódicamente con resultados verificables.",
+  "presupuesto_revision": {
+    "total_original_PEN": 1060000,
+    "periodo": "2027–2030",
+    "estado": "Suma comprobada; sin APU ni cotización local",
+    "descarga": "downloads/planificacion_20261106/PRESUPUESTO_ORIGINAL_Y_SUSTENTO.csv"
+  },
+  "fecha_actualizacion": "2026-11-06",
+  "objetivo_territorial": "Contribuir a la seguridad hídrica de la AID y la AII mediante conservación del suelo, gestión de fuentes e infraestructura y mantenimiento concertado."
 }

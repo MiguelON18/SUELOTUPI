@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Visor territorial académico de San Andrés de Tupicocha para apoyar la delimitación del área de influencia y el estudio del suelo.">
+  <meta name="description" content="Visor territorial académico de San Andrés de Tupicocha para orientar decisiones sobre conservación del suelo y seguridad hídrica.">
   <title>SueloTUPI · Visor territorial</title>
-  <link rel="stylesheet" href="styles.css?v=mapas20261031">
-<link rel="stylesheet" href="nav-accion.css?v=20261031"><link rel="stylesheet" href="basemaps.css?v=esri20261031"></head>
+  <link rel="stylesheet" href="styles.css?v=20261106p2">
+<link rel="stylesheet" href="nav-accion.css?v=20261106p2"><link rel="stylesheet" href="basemaps.css?v=20261106p2"></head>
 <body>
   <div class="app-shell">
     <header class="topbar">
       <div class="brand">
         <div class="brand-mark" aria-hidden="true">ST</div>
         <div>
-          <div class="eyebrow">Planificación ambiental · Beta académica</div>
+          <div class="eyebrow">Planificación ambiental</div>
           <h1>Suelo<span>TUPI</span></h1>
         </div>
       </div>
@@ -26,7 +26,7 @@
         <a class="btn btn-ghost section-link" href="dashboard.html">Datos</a>
         <a class="btn btn-ghost section-link" href="territorio.html">Territorio y cultura</a>
         <button id="presentationBtn" class="btn btn-ghost utility-action" type="button" title="Ocultar paneles para presentar">Presentar</button>
-        <a class="btn btn-primary utility-action" href="downloads/actualizacion_20261030/INVENTARIO_HIDRICO_RECORTADO_AII.kmz" download>Descargar agua · KMZ</a>
+        <a class="btn btn-primary utility-action" href="downloads/agua_20261106/INVENTARIO_VISUAL_COMPLETO.kmz" download>Descargar agua · KMZ actualizado</a>
       <a class="btn btn-ghost section-link" href="accion.html">Acción</a></nav>
     </header>
 
@@ -54,9 +54,9 @@
 
         <div class="source-note">
           <span class="source-dot"></span>
-          <div><strong>Actualización sociohídrica</strong><br><span id="datasetSummary">Cargando inventario…</span><a class="mobile-download" href="downloads/actualizacion_20261030/INVENTARIO_HIDRICO_RECORTADO_AII.kmz" download>Descargar agua · KMZ</a></div>
+          <div><strong>Información territorial</strong><br><span id="datasetSummary">Cargando inventario…</span><a class="mobile-download" href="downloads/agua_20261106/INVENTARIO_VISUAL_COMPLETO.kmz" download>Descargar agua · KMZ actualizado</a></div>
         </div>
-      </aside>
+      <p class="coverage-context"><a href="downloads/agua_20261106/INVENTARIO_COMPLETO.geojson" download>Descargar inventario completo · 06/11/2026</a></p></aside>
 
       <section id="map" class="map" aria-label="Mapa interactivo">
         <div id="tilePane" class="tile-pane" aria-hidden="true"></div>
@@ -65,7 +65,7 @@
 
         <div class="map-title-card">
           <div class="section-kicker">Zona de estudio</div>
-          <strong>Ámbitos académicos y cobertura C4 · 2025</strong>
+          <strong>Suelo y agua · ámbitos de estudio</strong>
           <span>Arrastra para mover el mapa y usa la rueda para acercar o alejar. Haz clic en un elemento para consultar su ficha.</span>
         </div>
 
@@ -104,23 +104,23 @@
         <div id="welcomePanel" class="welcome-panel">
           <div class="pulse-icon" aria-hidden="true">◎</div>
           <h3>Explora el territorio</h3>
-          <p>Activa capas y selecciona elementos para relacionar cobertura, agua, población, accesibilidad, catastro y peligros.</p>
+          <p>Consulta la cobertura, el relieve y la infraestructura de agua para orientar la conservación del suelo y la seguridad hídrica del pueblo y su entorno.</p>
 
-          <p class="coverage-context"><strong>MapBiomas Perú · Colección 4</strong><br>Cobertura de 2025 de AII completa. <a href="dashboard.html">Comparar series 1985–2025 de AID y AII</a>.</p>
+          <p class="coverage-context"><strong>MapBiomas Perú · Colección 4</strong><br>Cobertura de 2025 del área de influencia indirecta (AII). <a href="dashboard.html">Comparar series 1985–2025 de AID y AII</a>.</p>
 
           <div class="metric-grid">
-            <div><strong id="layerMetric">16</strong><span>capas</span></div>
-            <div><strong id="featureMetric">837</strong><span>entidades</span></div>
+            <div><strong id="layerMetric">19</strong><span>capas</span></div>
+            <div><strong id="featureMetric">818</strong><span>entidades</span></div>
             <div><strong>2025</strong><span>cobertura</span></div>
           </div>
 
           <div class="notice-card warning">
             <strong>AII incluye AID</strong>
-            <p>AID: perímetro urbano referencial de 17,68 ha. AII: aporte ∩ distrito, 2636,80 ha. AII incluye AID; no sumar sus áreas.</p>
+            <p>Área de influencia directa (AID): casco urbano referencial, 17,68 ha. AII: intersección del aporte topográfico y el distrito, 2636,80 ha. El ámbito mayor incluye al casco urbano.</p>
           </div>
-          <p class="coverage-context">Agricultura, contactos y puntos de inventario requieren comprobación local. No acreditan aptitud del suelo, riesgo ni alertas. Las capas de contraste se activan por separado de la cobertura.</p>
-          <p class="coverage-context"><strong>Agua interpretada</strong><br>10 rutas y 9 depósitos dibujados desde Google Earth, recortados a AII. Activa «Agua interpretada» para consultarlos. Imagen de referencia: 05/11/2023. Función y revestimiento por confirmar.</p>
-          <p class="coverage-context"><a href="downloads/actualizacion_20261030/CONTROL_ACTUALIZACION.json" download>Catálogo y fuentes de la entrega</a> · <a href="downloads/actualizacion_20261030/CONTROL_ACTUALIZACION.json" download>Control de integración</a></p>
+          <p class="coverage-context">La cartografía orienta dónde verificar el uso agrícola, los antecedentes de movimientos y los posibles cruces de drenaje. El diseño de intervenciones requiere evaluación del sitio.</p>
+          <p class="coverage-context"><strong>Agua interpretada</strong><br>10 trazos de canales/amunas y 21 depósitos dentro de AII; 16 depósitos adicionales en el contexto exterior. Interpretación visual de imágenes del 05/11/2023; funcionamiento y conexiones por verificar.</p>
+          <p class="coverage-context"><a href="fuentes.html">Fuentes, métodos y alcance</a> · <a href="accion.html">Prioridades de acción</a></p>
 
           <div class="territory-entry">
             <h4>Agua y memoria comunal</h4>
@@ -148,9 +148,9 @@
   </div>
 
   <noscript>SueloTUPI necesita JavaScript para representar las capas interactivas.</noscript>
-  <script src="data/layers.js?v=mapas20261031"></script>
-  <script src="map-ui.js?v=mapas20261031"></script>
-  <script src="basemaps.js?v=esri20261031"></script>
-  <script src="app.js?v=esri20261031"></script>
+  <script src="data/layers.js?v=20261106p2"></script>
+  <script src="map-ui.js?v=20261106p2"></script>
+  <script src="basemaps.js?v=20261106p2"></script>
+  <script src="app.js?v=20261106p2"></script>
 </body>
 </html>

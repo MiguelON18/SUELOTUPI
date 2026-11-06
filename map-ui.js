@@ -16,11 +16,11 @@
       ['Superficie',area==null?null:`${nf(area,2)} ha`],
       ['Delimitación',id==='AID'?'Perímetro continuo del casco urbano':'Aporte superficial ∩ distrito'],
       ['Alcance','Referencia cartográfica del estudio']]);
-    if(id==='CANALES_INTERPRETADOS')return rows([
-      ['Longitud',length==null?null:`${nf(length)} m`],['Imagen de referencia',p['Fecha de imagen']],['Conexión al pueblo','Por confirmar']]);
-    if(id==='DEPOSITOS_INTERPRETADOS')return rows([
+    if(id==='CANALES_INTERPRETADOS'||id==='CANALES_INTERPRETADOS_EXTERIOR')return rows([
+      ['Longitud',length==null?null:`${nf(length)} m`],['Imagen de referencia',p['Fecha de imagen']],['Ámbito',p['Recorte']],['Conexión al pueblo','Por confirmar']]);
+    if(id==='DEPOSITOS_INTERPRETADOS'||id==='DEPOSITOS_INTERPRETADOS_EXTERIOR')return rows([
       ['Superficie dibujada',p.superficie_m2==null?null:`${nf(p.superficie_m2)} m²`],
-      ['Imagen de referencia',p['Fecha de imagen']],['Revestimiento','Por confirmar']]);
+      ['Imagen de referencia',p['Fecha de imagen']],['Ámbito',p['Recorte']],['Revestimiento','Por confirmar']]);
     if(id==='PUNTOS_REVISION_INVENTARIO')return rows([
       ['Proceso declarado',p.proceso_declarado_GDB],['Fuente del registro',p.fuente_declarada_GDB],
       ['Fecha del evento','Por confirmar'],['Comprobación pendiente','Ficha, huella y estado actual']]);
