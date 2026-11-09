@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 174" role="img" aria-labelledby="title desc">
+  <title id="title">Infiltración y almacenamiento</title>
+  <desc id="desc">Dos cortes esquemáticos. A la izquierda el agua atraviesa un fondo permeable. A la derecha una membrana continua separa el agua del terreno.</desc>
+  <rect width="640" height="174" rx="8" fill="#eef2e5"/>
+  <path fill="#c9b691" d="M16 62h36l35 36h133l35-36h48v85H16zM337 62h41l35 36h134l35-36h42v85H337z"/>
+  <path fill="#729fae" d="M69 79h169l-18 19H87zM395 79h169l-17 19H413z"/>
+  <path fill="none" stroke="#234438" stroke-width="4" d="m378 62 35 36h134l35-36"/>
+  <path fill="none" stroke="#245467" stroke-width="2.5" stroke-dasharray="4 3" d="M111 104v28m43-28v28m43-28v28"/>
+  <path fill="none" stroke="#245467" stroke-width="2" d="m106 127 5 5 5-5m33 0 5 5 5-5m33 0 5 5 5-5"/>
+  <path fill="none" stroke="#617568" d="M319 18v137"/>
+  <g fill="#183e33" font-family="system-ui,sans-serif" font-size="16" font-weight="700" text-anchor="middle">
+    <text x="160" y="36">Fondo permeable</text><text x="480" y="36">Fondo revestido</text>
+  </g>
+</svg>

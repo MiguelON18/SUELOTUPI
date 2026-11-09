@@ -103,3 +103,26 @@ dd { margin:0; font-size:14px; }
 .reader-table-scroll{max-width:100%;overflow:auto;margin:24px 0;scrollbar-color:#82998b #edf0e7}.reader-table{border-collapse:collapse;min-width:680px;width:100%;font-size:13px;line-height:1.6}.reader-table caption{text-align:left;font-weight:650;padding:0 0 14px}.reader-table th,.reader-table td{padding:12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}.reader-table thead{background:#e8ede2}.reader-table-scroll:focus-visible{outline:3px solid var(--green);outline-offset:3px}
 .territory-panorama{margin:0 0 28px}.territory-panorama img{display:block;width:100%;height:auto;max-height:530px;object-fit:cover;object-position:50% 70%;border-radius:8px}.territory-panorama figcaption{margin-top:10px;color:var(--muted);font-size:12px;line-height:1.6}.territory-shell>.intro{padding:40px 0 28px;border-bottom:0}
 @media(max-width:700px){.territory-panorama img{height:250px;object-position:50% 66%}.territory-shell>.intro{padding-top:30px}.territory-panorama figcaption{font-size:11px}}
+
+.chapter-photo{margin:18px 0 22px;max-width:720px}
+.chapter-photo img{display:block;width:100%;height:auto;border-radius:8px}
+.chapter-photo figcaption{margin-top:8px;color:var(--muted);font-size:13px;line-height:1.5}
+
+.quipu-photo{max-width:460px}
+.shicras-carousel{max-width:600px;margin:20px 0 24px}
+.shicras-slide{margin:0}
+.shicras-slide img{height:clamp(230px,57vw,390px);object-fit:contain;background:#fff}
+.shicras-slide[hidden],.shicras-controls[hidden]{display:none}
+.shicras-controls{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:10px}
+.shicras-controls button{min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--green-dark);font-size:24px;cursor:pointer}
+.shicras-controls button:focus-visible{outline:2px solid var(--green-dark);outline-offset:3px}
+.shicras-count{min-width:50px;text-align:center;color:var(--muted);font-size:14px}
+
+.community-quipus-photo img{aspect-ratio:1.73;height:auto;object-fit:cover;object-position:top}
+
+.reservoir-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;max-width:720px;margin:24px 0}
+.reservoir-photos .chapter-photo{margin:0}
+.reservoir-photos figure:first-child{grid-column:1 / -1}
+.reservoir-photos .reservoir-lined-photo{aspect-ratio:16 / 9;height:auto;object-fit:cover}
+.reservoir-photos .reservoir-channel-photo{aspect-ratio:49 / 64;height:auto;object-fit:cover;max-width:230px}
+@media(max-width:560px){.reservoir-photos{grid-template-columns:1fr}}
