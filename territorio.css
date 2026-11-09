@@ -111,7 +111,11 @@ dd { margin:0; font-size:14px; }
 .quipu-photo{max-width:460px}
 .shicras-carousel{max-width:600px;margin:20px 0 24px}
 .shicras-slide{margin:0}
-.shicras-slide img{height:clamp(230px,57vw,390px);object-fit:contain;background:#fff}
+/* Encuadres de las tres fotos, cuyos márgenes están incorporados en el WebP. */
+.shicras-slide img{height:auto;margin-inline:auto;object-fit:cover;object-position:var(--shicras-photo-position,top)}
+.shicras-photo--maguey{aspect-ratio:2285 / 1412}
+.shicras-photo--preparacion{aspect-ratio:1550 / 2285;max-width:265px;--shicras-photo-position:25% center}
+.shicras-photo--tejido{aspect-ratio:2285 / 1524}
 .shicras-slide[hidden],.shicras-controls[hidden]{display:none}
 .shicras-controls{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:10px}
 .shicras-controls button{min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--green-dark);font-size:24px;cursor:pointer}
