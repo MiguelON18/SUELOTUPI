@@ -432,10 +432,10 @@
         for(const item of data.slopeLegend)addLegendEntry(item.name,{color:item.color,fill:item.color,opacity:.7},'polygon');
         const note=document.createElement('p');note.className='legend-source';
         const link=document.createElement('a');link.href=layer.metadata.fuente;link.target='_blank';link.rel='noopener';link.textContent='Intervalos y colores: MINAM · ZEE Puno';
-        note.append(link,document.createTextNode('. Pendiente de Tupicocha calculada localmente con DSM de 30 m.'));list.appendChild(note);
+        note.append(link,document.createTextNode('. ' + (layer.metadata.descripcion ?? 'Pendiente de Tupicocha calculada localmente con DSM de 30 m.')));list.appendChild(note);
       } else if(layer.style.thematic==='contour'){
         addLegendEntry('Curvas principales · 250 m',{color:'#92704c'},'line');
-        addLegendEntry('Curvas · 50 m al acercarse',{color:'#bba88d'},'line');
+        addLegendEntry("Curvas · " + (layer.metadata.equidistancia_m ?? 50) + " m al acercarse",{color:'#bba88d'},'line');
       } else if (layer.style.thematic === "transition") {
         addLegendEntry("Cambio de clase 2015–2025 (no degradación comprobada)", {color:"#b45b28",fill:"#cc8649",opacity:.7}, "polygon");
         addLegendEntry("Persistencia de clase", {color:"#8c9c86",fill:"#d4ddcc",opacity:.5}, "polygon");
